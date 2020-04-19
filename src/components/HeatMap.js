@@ -1,7 +1,7 @@
 import React from "react";
 import { Hour } from "../components/Hour";
 
-export function HeatMap({ data }) {
+export function HeatMap({ data, id }) {
   const [monday, tuesday, wednesday, thursday, friday, saturday, sunday] = data;
   return (
     <div className="container">
@@ -34,37 +34,79 @@ export function HeatMap({ data }) {
 
       <div className="weekday">M</div>
       {monday.data.map((hour, index) => (
-        <Hour hourData={hour} key={index} />
+        <Hour
+          id={`Monday-${index}-${id}`}
+          day="Monday"
+          hour={index}
+          hourData={hour}
+          key={index}
+        />
       ))}
 
       <div className="weekday">T</div>
       {tuesday.data.map((hour, index) => (
-        <Hour hourData={hour} key={index} />
+        <Hour
+          id={`Tuesday-${index}-${id}`}
+          day="Tuesday"
+          hour={index}
+          hourData={hour}
+          key={index}
+        />
       ))}
 
       <div className="weekday">W</div>
       {wednesday.data.map((hour, index) => (
-        <Hour hourData={hour} key={index} />
+        <Hour
+          id={`Wednesday-${index}-${id}`}
+          day="Wednesday"
+          hour={index}
+          hourData={hour}
+          key={index}
+        />
       ))}
 
       <div className="weekday">T</div>
       {thursday.data.map((hour, index) => (
-        <Hour hourData={hour} key={index} />
+        <Hour
+          id={`Thursday-${index}-${id}`}
+          day="Thursday"
+          hour={index}
+          hourData={hour}
+          key={index}
+        />
       ))}
 
       <div className="weekday">F</div>
       {friday.data.map((hour, index) => (
-        <Hour hourData={hour} key={index} />
+        <Hour
+          id={`Friday-${index}-${id}`}
+          day="Friday"
+          hour={index}
+          hourData={hour}
+          key={index}
+        />
       ))}
 
       <div className="weekday">S</div>
       {saturday.data.map((hour, index) => (
-        <Hour hourData={hour} key={index} />
+        <Hour
+          id={`Saturday-${index}-${id}`}
+          day="Saturday"
+          hour={index}
+          hourData={hour}
+          key={index}
+        />
       ))}
 
       <div className="weekday">S</div>
       {sunday.data.map((hour, index) => (
-        <Hour hourData={hour} key={index} />
+        <Hour
+          id={`Sunday-${index}-${id}`}
+          day="Sunday"
+          hour={index}
+          hourData={hour}
+          key={index}
+        />
       ))}
     </div>
   );

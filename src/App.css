@@ -1,3 +1,35 @@
+* {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+}
+
+:root {
+  --grid-size: 20px;
+}
+
+body {
+  background: #fefefa;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid rgba(128, 0, 128, 0.2);
+  transition: background 0.5s;
+}
+
+p {
+  margin-top: 0;
+}
+
+a:hover {
+  background: rgba(128, 0, 128, 0.2);
+}
+
+h1 {
+  font-size: 50px;
+}
+
 h1,
 h2,
 .address {
@@ -14,16 +46,43 @@ h3 {
   font-weight: normal;
 }
 
+table {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+td {
+  border-bottom: 1px solid whitesmoke;
+  padding-bottom: 10px;
+  text-align: end;
+  vertical-align: top;
+}
+
+.intro {
+  font-size: 20px;
+}
+
 .innerContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 15px;
+  grid-gap: 50px 30px;
   justify-items: center;
+  margin: 120px 60px 0px 60px;
+  min-height: calc(100vh - 260px);
+}
+
+.noLocationSelected {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 50px 30px;
+  justify-items: center;
+  margin: 120px 60px 0px 60px;
+  min-height: calc(100vh - 260px);
 }
 
 .container {
   display: grid;
-  grid-template-columns: repeat(25, 18px);
+  grid-template-columns: repeat(25, var(--grid-size));
   text-align: center;
   font-size: 10px;
 }
@@ -31,8 +90,8 @@ h3 {
 .hourVal {
   border: 0.5px solid whitesmoke;
   border-radius: 10%;
-  width: 18px;
-  height: 18px;
+  width: var(--grid-size);
+  height: var(--grid-size);
 }
 
 .weekday {
@@ -42,4 +101,82 @@ h3 {
 
 .hour {
   margin: 5px 0;
+}
+
+.hoursContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.showMore {
+  display: flex;
+  flex-direction: column;
+}
+
+.showHide {
+  margin: 20px auto;
+  background: none;
+  border: none;
+  display: block;
+  cursor: pointer;
+  transition: border 0.5s;
+  border: 2px solid transparent;
+  outline: rgba(128, 0, 128, 0.2);
+  font-size: 14px;
+}
+
+.showHide:hover {
+  border: 2px solid rgba(128, 0, 128, 0.2);
+}
+
+.showHide:focus {
+  border: 2px solid rgba(128, 0, 128, 0.4);
+}
+
+.quietest {
+  border-bottom: 2px solid rgba(128, 0, 128, 0.1);
+}
+
+.busiest {
+  border-bottom: 2px solid rgba(128, 0, 128, 1);
+}
+
+footer {
+  text-align: center;
+}
+
+.shopCard {
+  width: min-content;
+}
+
+@media (max-width: 1070px) {
+  .innerContainer {
+    display: block;
+    margin: 0 50px;
+    min-height: calc(100vh - 260px);
+  }
+
+  .shopCard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container,
+  .showMore {
+    align-self: center;
+  }
+
+  .intro {
+    margin-bottom: 40px;
+  }
+
+  .selectContainer {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  :root {
+    --grid-size: 15px;
+  }
 }
