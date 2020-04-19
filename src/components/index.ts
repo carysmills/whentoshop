@@ -1,1 +1,0 @@
-export { ShopCard } from "./ShopCard";
