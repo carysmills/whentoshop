@@ -16,7 +16,7 @@ def scrapeData(coords):
         if "populartimes" in result:
             popularresults.append(result)
 
-    filename = 'src/data/' + coords['name'] + '.json'
+    filename = 'public/data/' + coords['name'] + '.json'
     with open(filename, 'w') as outfile:
         json.dump(popularresults, outfile)
 
