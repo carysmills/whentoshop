@@ -30,4 +30,4 @@ __pycache__
 config.py
 
 #datafiles
-src/data
+public/data

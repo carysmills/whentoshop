@@ -8,8 +8,13 @@ function App() {
 
   useEffect(() => {
     async function getData(location) {
-      const data = await import(`./data/${location}.json`);
-      updateShops(data.default);
+      await fetch(`./data/${location}.json`)
+        .then(response => {
+          return response.json();
+        })
+        .then(data => {
+          updateShops(data);
+        });
     }
 
     if (location.length > 1) {
