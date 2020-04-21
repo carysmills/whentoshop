@@ -180,3 +180,22 @@ footer {
     --grid-size: 15px;
   }
 }
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 45px;
+    margin: 10px 20px;
+  }
+
+  .innerContainer {
+    margin: 0 20px;
+  }
+
+  :root {
+    --grid-size: 13px;
+  }
+
+  .hour:nth-child(odd) {
+    opacity: 0;
+  }
+}
