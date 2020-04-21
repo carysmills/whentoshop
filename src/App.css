@@ -184,10 +184,16 @@ footer {
 @media (max-width: 400px) {
   h1 {
     font-size: 45px;
-    margin: 10px 20px;
+    margin: 20px 20px;
+    word-spacing: 3px;
   }
 
-  .innerContainer {
+  .noLocationSelected {
+    margin-top: 0;
+  }
+
+  .innerContainer,
+  .noLocationSelected {
     margin: 0 20px;
   }
 
@@ -197,5 +203,19 @@ footer {
 
   .hour:nth-child(odd) {
     opacity: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  :root {
+    --grid-size: 11.5px;
+  }
+
+  .weekday {
+    font-size: 8px;
+  }
+
+  td {
+    font-size: 14px;
   }
 }
