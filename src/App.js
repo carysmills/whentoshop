@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <h1>
-        When to shop&nbsp;
+        <span>When to </span>shop&nbsp;
         <span role="img" aria-label="mask emoji">
           😷
         </span>
