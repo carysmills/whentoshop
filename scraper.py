@@ -1,18 +1,20 @@
 import populartimes
-import geopy
 import config
 import json
 import googlemaps
 import locations
 
-def scrapeData(coords):
+def getIds(coords):
     gmaps = googlemaps.Client(key=config.api_key)
-    stores = gmaps.places(query=coords['search'], type=coords['type'], location=coords['location'], radius=coords['radius'])
-    results = stores['results']
+    stores = gmaps.places_nearby(keyword=coords['search'], type=coords['type'], location=coords['location'], radius=coords['radius'])
+    print(stores['results'])
+
+
+def scrapeData(coords):
     popularresults = []
 
-    for key in results:
-        result = populartimes.get_id(config.api_key, key['place_id'])
+    for key in coords['ids']:
+        result = populartimes.get_id(config.api_key, key)
         if "populartimes" in result:
             popularresults.append(result)
 
@@ -20,11 +22,11 @@ def scrapeData(coords):
     with open(filename, 'w') as outfile:
         json.dump(popularresults, outfile)
 
+scrapeData(coords=locations.downtownottawa)
 scrapeData(coords=locations.glebe)
 scrapeData(coords=locations.sandyhill)
 scrapeData(coords=locations.hintonburg)
-scrapeData(coords=locations.downtownottawa)
-scrapeData(coords=locations.downtowntoronto)
-scrapeData(coords=locations.northyork)
 scrapeData(coords=locations.downtowntoronto)
 scrapeData(coords=locations.hamilton)
+scrapeData(coords=locations.eastyork)
+scrapeData(coords=locations.northyork)
