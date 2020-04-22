@@ -77,14 +77,14 @@ function App() {
               value={location}
             >
               <option value="">--Please choose a location--</option>
-              <option value="downtownottawa">Centretown (Ottawa)</option>
-              <option value="downtowntoronto">Downtown Toronto</option>
-              <option value="eastyork">East York</option>
-              <option value="glebe">Glebe (Ottawa)</option>
+              <option value="downtownottawa">Ottawa -- Centretown</option>
+              <option value="glebe">Ottawa -- Glebe (Ottawa)</option>
+              <option value="hintonburg">Ottawa -- Hintonburg (Ottawa)</option>
+              <option value="sandyhill">Ottawa -- Sandy Hill (Ottawa)</option>
+              <option value="downtowntoronto">Toronto -- Downtown</option>
+              <option value="eastyork">Toronto -- East York</option>
+              <option value="northyork">Toronto -- North York</option>
               <option value="hamilton">Hamilton</option>
-              <option value="hintonburg">Hintonburg (Ottawa)</option>
-              <option value="northyork">North York</option>
-              <option value="sandyhill">Sandy Hill (Ottawa)</option>
             </select>
           </div>
         </div>
