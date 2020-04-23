@@ -18,6 +18,26 @@ a {
   transition: background 0.5s;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+nav a {
+  font-weight: bold;
+  border-bottom: none;
+}
+
+nav a:hover {
+  background: none;
+}
+
+li {
+  list-style: none;
+}
+
 p {
   margin-top: 0;
 }
@@ -28,6 +48,8 @@ a:hover {
 
 h1 {
   font-size: 50px;
+  margin: 0;
+  text-shadow: 1px 3px 2px #d3d3d3;
 }
 
 h1,
@@ -62,12 +84,15 @@ td {
   font-size: 20px;
 }
 
+.pageContainer {
+  margin: 10px 50px 0px 50px;
+}
+
 .innerContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px 30px;
   justify-items: center;
-  margin: 120px 60px 0px 60px;
   min-height: calc(100vh - 260px);
 }
 
@@ -76,8 +101,21 @@ td {
   grid-template-columns: 1fr;
   grid-gap: 50px 30px;
   justify-items: center;
-  margin: 120px 60px 0px 60px;
   min-height: calc(100vh - 260px);
+}
+
+.about {
+  min-height: calc(100vh - 160px);
+  font-size: 20px;
+}
+
+select {
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+label {
+  font-weight: 800;
 }
 
 .container {
@@ -92,6 +130,7 @@ td {
   border-radius: 10%;
   width: var(--grid-size);
   height: var(--grid-size);
+  cursor: pointer;
 }
 
 .weekday {
@@ -152,7 +191,6 @@ footer {
 @media (max-width: 1070px) {
   .innerContainer {
     grid-template-columns: 1fr;
-    margin: 0 50px;
     min-height: calc(100vh - 260px);
   }
 
@@ -179,21 +217,18 @@ footer {
   :root {
     --grid-size: 15px;
   }
+
+  h1 {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 420px) {
-  h1 {
-    font-size: 45px;
-    margin: 20px 20px;
-    word-spacing: 3px;
-  }
-
   .noLocationSelected {
     margin-top: 0;
   }
 
-  .innerContainer,
-  .noLocationSelected {
+  .pageContainer {
     margin: 0 20px;
   }
 
