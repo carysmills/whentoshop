@@ -1,9 +1,36 @@
 import React, { useEffect, useState } from "react";
 import { ShopCard } from "../components/ShopCard";
+import { useHistory, useLocation } from "react-router-dom";
+
+const supportedLocations = [
+  "downtownottawa",
+  "glebe",
+  "hintonburg",
+  "sandyhill",
+  "downtowntoronto",
+  "eastyork",
+  "northyork",
+  "hamilton"
+];
 
 export function Main() {
   const [shops, updateShops] = useState(null);
-  const [location, updateLocation] = useState("downtownottawa");
+  const { search } = useLocation();
+  const history = useHistory();
+  const params =
+    search.length &&
+    search
+      .replace("?", "")
+      .split("&")
+      .map(param => param.split("="));
+
+  const locationParam =
+    params.length > 0 ? params.filter(x => x[0] === "location")[0][1] : null;
+
+  const supportedLocation = supportedLocations.includes(locationParam);
+  const [location, updateLocation] = useState(
+    supportedLocation ? locationParam : "downtownottawa"
+  );
 
   useEffect(() => {
     async function getData(location) {
@@ -18,8 +45,9 @@ export function Main() {
 
     if (location.length > 1) {
       getData(location);
+      history.push({ search: `?location=${location}` });
     }
-  }, [location]);
+  }, [location, history]);
 
   return (
     <div className={location === "" ? "noLocationSelected" : "innerContainer"}>
