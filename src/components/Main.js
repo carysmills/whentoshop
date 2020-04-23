@@ -54,15 +54,17 @@ export function Main() {
       <div className="intro">
         <p>
           <strong>
-            These charts were built in response to COVID, to help people find
-            offpeak times to get their groceries.
+            These charts were built in response to COVID-19, to help find
+            offpeak times to get groceries.
           </strong>
-          &nbsp; They use Google data to show how busy a particular location is,
-          based on compiled Google searches, Google Maps location data and local
-          traffic data, via the{" "}
+          &nbsp; The data indicates how busy a particular location is, compared
+          to its own peak times. Popularity data is based on compiled Google
+          searches, Google Maps location data and local traffic data, via the{" "}
           <a href="https://github.com/m-wrzr/populartimes">
             populartimes library.
-          </a>
+          </a>{" "}
+          Make sure to check directly with stores about their hours before
+          venturing out.
         </p>
       </div>
 
@@ -85,7 +87,7 @@ export function Main() {
               <option value="downtowntoronto">Toronto - Downtown</option>
               <option value="eastyork">Toronto - East York</option>
               <option value="northyork">Toronto - North York</option>
-              <option value="hamilton">Hamilton</option>
+              <option value="hamilton">Hamilton - Downtown</option>
             </select>
           </label>
         </div>
@@ -93,9 +95,8 @@ export function Main() {
         <div className="legendContainer">
           <div className="legend" />
           <div className="legendLabel">
-            <span className="left">Closed/no data</span>
-            <span>Medium busy</span>
-            <span className="right">Most busy</span>
+            <span className="left">Closed or not enough data</span>
+            <span className="right">As busy as the shop gets</span>
           </div>
         </div>
 
