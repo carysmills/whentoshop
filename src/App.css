@@ -96,17 +96,45 @@ td {
   min-height: calc(100vh - 260px);
 }
 
-.noLocationSelected {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 50px 30px;
-  justify-items: center;
-  min-height: calc(100vh - 260px);
-}
-
 .about {
   min-height: calc(100vh - 160px);
   font-size: 20px;
+}
+
+.legendContainer {
+  justify-self: end;
+  margin: 30px 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+.legend {
+  background: linear-gradient(
+    90deg,
+    rgba(128, 0, 128, 0) 0%,
+    rgba(128, 0, 128, 1) 100%
+  );
+  height: 20px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.legendLabel {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  font-size: 12px;
+}
+
+.selectContainer {
+  justify-self: baseline;
+  margin: 30px 0;
 }
 
 select {
@@ -130,7 +158,6 @@ label {
   border-radius: 10%;
   width: var(--grid-size);
   height: var(--grid-size);
-  cursor: pointer;
 }
 
 .weekday {
@@ -182,6 +209,7 @@ label {
 
 footer {
   text-align: center;
+  margin: 20px 0;
 }
 
 .shopCard {
@@ -189,6 +217,11 @@ footer {
 }
 
 @media (max-width: 1070px) {
+  .legendContainer,
+  .selectContainer {
+    justify-self: center;
+    margin: 0;
+  }
   .innerContainer {
     grid-template-columns: 1fr;
     min-height: calc(100vh - 260px);
@@ -213,7 +246,20 @@ footer {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+  .innerContainer {
+    grid-gap: 20px;
+  }
+
+  .legendContainer,
+  .selectContainer {
+    justify-self: start;
+  }
+
+  .pageContainer {
+    margin: 10px 20px 0px 20px;
+  }
+
   :root {
     --grid-size: 15px;
   }
@@ -224,10 +270,6 @@ footer {
 }
 
 @media (max-width: 420px) {
-  .noLocationSelected {
-    margin-top: 0;
-  }
-
   .pageContainer {
     margin: 0 20px;
   }
