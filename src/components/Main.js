@@ -10,7 +10,17 @@ const supportedLocations = [
   "downtowntoronto",
   "eastyork",
   "northyork",
-  "hamilton"
+  "hamilton",
+  "barrhaven",
+  "beechwood",
+  "kanata",
+  "orleans",
+  "southkeys",
+  "westboro",
+  "littleportugaltoronto",
+  "pinedaleburlington",
+  "cataraquinorthkingston",
+  "hastingssunrise"
 ];
 
 export function Main() {
