@@ -22,6 +22,16 @@ def scrapeData(coords):
     with open(filename, 'w') as outfile:
         json.dump(popularresults, outfile)
 
+scrapeData(coords=locations.littleportugaltoronto)
+scrapeData(coords=locations.hastingssunrise)
+scrapeData(coords=locations.kanata)
+scrapeData(coords=locations.orleans)
+scrapeData(coords=locations.beechwood)
+scrapeData(coords=locations.westboro)
+scrapeData(coords=locations.cataraquinorthkingston)
+scrapeData(coords=locations.southkeys)
+scrapeData(coords=locations.barrhaven)
+scrapeData(coords=locations.pinedaleburlington)
 scrapeData(coords=locations.downtownottawa)
 scrapeData(coords=locations.glebe)
 scrapeData(coords=locations.sandyhill)
