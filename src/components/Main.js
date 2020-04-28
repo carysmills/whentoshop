@@ -80,14 +80,32 @@ export function Main() {
               <option disabled value="">
                 --Please choose a location--
               </option>
+              <option value="barrhaven">Ottawa - Barrhaven</option>
+              <option value="beechwood">Ottawa - Beechwood</option>
               <option value="downtownottawa">Ottawa - Centretown</option>
               <option value="glebe">Ottawa - Glebe</option>
               <option value="hintonburg">Ottawa - Hintonburg</option>
+              <option value="kanata">Ottawa - Kanata</option>
+              <option value="orleans">Ottawa - Orleans</option>
               <option value="sandyhill">Ottawa - Sandy Hill</option>
+              <option value="southkeys">Ottawa - South Keys</option>
+              <option value="westboro">Ottawa - Westboro</option>
+
               <option value="downtowntoronto">Toronto - Downtown</option>
               <option value="eastyork">Toronto - East York</option>
+              <option value="littleportugaltoronto">
+                Toronto - Little Portugal
+              </option>
               <option value="northyork">Toronto - North York</option>
+
+              <option value="pinedaleburlington">Burlington - Pinedale</option>
               <option value="hamilton">Hamilton - Downtown</option>
+              <option value="cataraquinorthkingston">
+                Kingston - Cataraqui North
+              </option>
+              <option value="hastingssunrise">
+                Vancouver - Hastings-Sunrise
+              </option>
             </select>
           </label>
         </div>
