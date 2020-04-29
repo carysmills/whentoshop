@@ -3,6 +3,12 @@ import { ShopCard } from "../components/ShopCard";
 import { useHistory, useLocation } from "react-router-dom";
 
 const supportedLocations = [
+  "ontario_toronto_upperjarvis",
+  "ontario_northumberland",
+  "ontario_ottawa_nepean",
+  "bc_vancouver_oakridge",
+  "ontario_mississauga_streetsville",
+  "ontario_mississauga_meadowvale",
   "downtownottawa",
   "glebe",
   "hintonburg",
@@ -96,6 +102,7 @@ export function Main() {
               <option value="glebe">Ottawa - Glebe</option>
               <option value="hintonburg">Ottawa - Hintonburg</option>
               <option value="kanata">Ottawa - Kanata</option>
+              <option value="ontario_ottawa_nepean">Ottawa - Nepean</option>
               <option value="orleans">Ottawa - Orleans</option>
               <option value="sandyhill">Ottawa - Sandy Hill</option>
               <option value="southkeys">Ottawa - South Keys</option>
@@ -103,18 +110,35 @@ export function Main() {
 
               <option value="downtowntoronto">Toronto - Downtown</option>
               <option value="eastyork">Toronto - East York</option>
+              <option value="ontario_toronto_upperjarvis">
+                Toronto - Upper Jarvis
+              </option>
+
               <option value="littleportugaltoronto">
                 Toronto - Little Portugal
               </option>
               <option value="northyork">Toronto - North York</option>
 
               <option value="pinedaleburlington">Burlington - Pinedale</option>
+
+              <option value="ontario_northumberland">
+                Cobourg - Northumberland
+              </option>
               <option value="hamilton">Hamilton - Downtown</option>
               <option value="cataraquinorthkingston">
                 Kingston - Cataraqui North
               </option>
+              <option value="ontario_mississauga_streetsville">
+                Streetsville - Mississauga
+              </option>
+              <option value="ontario_mississauga_meadowvale">
+                Meadowvale - Mississauga
+              </option>
               <option value="hastingssunrise">
                 Vancouver - Hastings-Sunrise
+              </option>
+              <option value="bc_vancouver_oakridge">
+                Vancouver - Oakridge
               </option>
             </select>
           </label>

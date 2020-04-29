@@ -31,7 +31,7 @@ hintonburg = {
     "search": "grocery store",
     "type": "grocery_or_supermarket, supermarket, food",
     "radius": 1500,
-    'ids': ["ChIJq10xGEwEzkwRXMo3LKrj-Vk", "ChIJW21_GzwEzkwREaBAvfmqpx4", "ChIJfXO7S0kEzkwRnzjejWCrTOM",  "ChIJG01pC00EzkwRKi_9fOnWnrA", "ChIJqzZcsU4EzkwRcuQKKY4hHUQ", "ChIJJ7HxI0kEzkwRIhjkB4Eb7kc", "ChIJPYMSOUsEzkwRKxSf74RI-CE", "ChIJ889Irz4EzkwRwFllgLGC3sY",  "ChIJ0dTy8jMEzkwR01w5zmfaT3Q", "ChIJGdJhtE4EzkwR8gk-UCtzb2M", "ChIJTyJRNUkEzkwRZC7Xw7zv2Bs",  "ChIJBcHfIkkEzkwRb8_DLRULFYQ",  "ChIJ4QYrpk4EzkwRJzLRmHRE00I", "ChIJLTBkKhgEzkwRt-hw1arJSK8", "ChIJ8XpokkgEzkwRUSgnsbeDL6M",  "ChIJBVpKdzIEzkwRUXli2P1YSO0", "ChIJoUIwIRoEzkwRTmapP6iy3Zc",  "ChIJjYD75xkEzkwRXWN9iNa7xUA", "ChIJa4Ao0z4EzkwRq3kLsZ9q1OU"]
+    'ids': ["ChIJq10xGEwEzkwRXMo3LKrj-Vk", "ChIJW21_GzwEzkwREaBAvfmqpx4","ChIJfXO7S0kEzkwRnzjejWCrTOM",  "ChIJG01pC00EzkwRKi_9fOnWnrA", "ChIJqzZcsU4EzkwRcuQKKY4hHUQ", "ChIJJ7HxI0kEzkwRIhjkB4Eb7kc", "ChIJPYMSOUsEzkwRKxSf74RI-CE", "ChIJ889Irz4EzkwRwFllgLGC3sY",  "ChIJ0dTy8jMEzkwR01w5zmfaT3Q", "ChIJGdJhtE4EzkwR8gk-UCtzb2M", "ChIJTyJRNUkEzkwRZC7Xw7zv2Bs",  "ChIJBcHfIkkEzkwRb8_DLRULFYQ",  "ChIJ4QYrpk4EzkwRJzLRmHRE00I", "ChIJLTBkKhgEzkwRt-hw1arJSK8", "ChIJ8XpokkgEzkwRUSgnsbeDL6M",  "ChIJBVpKdzIEzkwRUXli2P1YSO0", "ChIJoUIwIRoEzkwRTmapP6iy3Zc",  "ChIJjYD75xkEzkwRXWN9iNa7xUA"]
 }
 
 downtowntoronto = {
@@ -58,7 +58,7 @@ northyork = {
     "search": "grocery store",
     "type": "grocery_or_supermarket, supermarket, food",
     "radius": 1500,
-    "ids": ["ChIJPdWSpvRJV0ARbLkwCKQfJVg", "ChIJX-kBfeHS1IkRlR7VAMl9-Gg", "ChIJu7yp2OPS1IkRtRKJaseYKmg","ChIJSyV2IxnT1IkRj7IhCk8L-QE","ChIJEbVueeHS1IkRsBD_GeeaGlA","ChIJQZrLCSfT1IkRCkblhrVySrU","ChIJhcvgIEktK4gRcy9No_QH7S4","ChIJKXGVxCfT1IkRL1eLYdWa0As","ChIJlYX0b_DS1IkRPqjDC3ckaOo"]
+    "ids": ["ChIJW0Ht9xEtK4gR8Evl5TwDwx8", "ChIJLR2kYmUtK4gRTrmDQJxbzP4", "ChIJZyajKEktK4gR1-x3lk-99-c", "ChIJjTokBbUtK4gR2ANTYwPG7uA", "ChIJPdWSpvRJV0ARbLkwCKQfJVg", "ChIJX-kBfeHS1IkRlR7VAMl9-Gg", "ChIJu7yp2OPS1IkRtRKJaseYKmg","ChIJSyV2IxnT1IkRj7IhCk8L-QE","ChIJEbVueeHS1IkRsBD_GeeaGlA","ChIJQZrLCSfT1IkRCkblhrVySrU","ChIJhcvgIEktK4gRcy9No_QH7S4","ChIJKXGVxCfT1IkRL1eLYdWa0As","ChIJlYX0b_DS1IkRPqjDC3ckaOo"]
 }
 
 eastyork = {
@@ -94,7 +94,7 @@ kanata = {
     "search": "grocery store",
     "type": "grocery_or_supermarket, supermarket, food",
     "radius": 5000,
-    "ids": ["ChIJZbLBNXEA0kwREi1Ufh277WE", "ChIJ6yPBDv3-zUwRjjgCZsLM3Vo", "ChIJ38_PxSX-zUwR7B-FZaTqneg", "ChIJ5ZsRyqT_zUwRgenexcotU_Y", "ChIJEci4UagA0kwRfpGL-9rt9js", "ChIJo_4goJD_0UwRrC0I1FN8Kjs", "ChIJl1N--K0A0kwRnPGG9Ysqsig", "ChIJKa_7jif-zUwRMx5wwOFdOQg", "ChIJRQrx3XX_zUwRHS_fgGkCnTw", "ChIJww6GJPf_0UwRWsGl6Ux6wVE", "ChIJ8efqIG4A0kwRlVAMnxDOypQ", "ChIJYTK71PQA0kwRkI6xAuDY9Ig", "ChIJuUE-5HMA0kwRp6UZB-ExbTc", "ChIJsUZU2uH-zUwRon4usv3ITZA", "ChIJ8eD7fKL_zUwRIxIdh8oHxtc", "ChIJaYz-KaYA0kwRFsUS8v7V2Fw", "ChIJv89bw4z_zUwRmE82d9-ZFzs", "ChIJ61xFfaL_zUwRNbCBCTO0cIg", "ChIJ0Rflf2P_zUwRGfpfjRmgJ2c", "ChIJAY1KnpD_0UwRxwD-z7dM1p8"]
+    "ids": ["ChIJP5TaGXkA0kwRHhdcY00utFY", "ChIJZbLBNXEA0kwREi1Ufh277WE", "ChIJ6yPBDv3-zUwRjjgCZsLM3Vo", "ChIJ38_PxSX-zUwR7B-FZaTqneg", "ChIJ5ZsRyqT_zUwRgenexcotU_Y", "ChIJEci4UagA0kwRfpGL-9rt9js", "ChIJo_4goJD_0UwRrC0I1FN8Kjs", "ChIJl1N--K0A0kwRnPGG9Ysqsig", "ChIJKa_7jif-zUwRMx5wwOFdOQg", "ChIJRQrx3XX_zUwRHS_fgGkCnTw", "ChIJww6GJPf_0UwRWsGl6Ux6wVE", "ChIJ8efqIG4A0kwRlVAMnxDOypQ", "ChIJYTK71PQA0kwRkI6xAuDY9Ig", "ChIJuUE-5HMA0kwRp6UZB-ExbTc", "ChIJsUZU2uH-zUwRon4usv3ITZA", "ChIJ8eD7fKL_zUwRIxIdh8oHxtc", "ChIJaYz-KaYA0kwRFsUS8v7V2Fw", "ChIJv89bw4z_zUwRmE82d9-ZFzs", "ChIJ61xFfaL_zUwRNbCBCTO0cIg", "ChIJ0Rflf2P_zUwRGfpfjRmgJ2c", "ChIJAY1KnpD_0UwRxwD-z7dM1p8"]
 }
 
 orleans = {
@@ -159,3 +159,61 @@ pinedaleburlington = {
     "radius": 3000,
     "ids": ["ChIJGXbUJUdgK4gR2n0B8rNxY_I", "ChIJS6ncl2JgK4gRR3RNRLvzVT4", "ChIJGcQP1LRhK4gRYHng30RlFM4", "ChIJZcyF1SxeK4gR2T73uqWi6sA", "ChIJDf9vaa9gK4gRxDt1Vjg0mcw", "ChIJK0Ka-2JgK4gRCFTXwNxklEw", "ChIJu6aXo3FeK4gRin4KcslLVU8", "ChIJBxCnrchhK4gRup9ayowNOo0"]
 }
+
+ontario_toronto_upperjarvis = {
+    "name": "ontario_toronto_upperjarvis",
+    "location": "43.666892, -79.369080",
+    "search": "grocery store",
+    "type": "grocery_or_supermarket, supermarket, food",
+    "radius": 1000,
+    "ids": ["ChIJB6XNbVPL1IkRSYQgf2_EZQk", "ChIJYRp1OlDL1IkRuObq834hQ2o", "ChIJVYv3SkvL1IkR96L2cOdWbwI", "ChIJteyWWuTL1IkRldhzvWFABQ4", "ChIJ-Zyf_7Q0K4gREQ0zMaEyFGA", "ChIJLbmFAUfL1IkR2oyVtMaHMYo"]
+}
+
+ontario_northumberland = {
+    "name": "ontario_northumberland",
+    "location": "44.107419, -78.048020",
+    "search": "grocery store",
+    "type": "grocery_or_supermarket, supermarket, food",
+    "radius": 6000,
+    "ids": ["ChIJkzt_szy41YkRNqzeYQoZ45s", "ChIJt8RVD_zH1YkRfkFyKLhVjcg", "ChIJ-3mhSUnE1YkRDuIHeEETe4E", "ChIJ4VzXe9bF1YkRm1Wb4bJlrqA", "ChIJ_7EF9KLF1YkR5yH6TPZa5Mk", "ChIJg2zdDa7F1YkRyIjNySZShVI"]
+}
+
+ontario_ottawa_nepean = {
+    "name": "ontario_ottawa_nepean",
+    "ids": ["ChIJN8EF9SAHzkwR3kG7vb_W4qA", "ChIJswp8m1D8zUwRUb7T10-VfWI", "ChIJi5uzCv8GzkwRKNpcjxlFcak", "ChIJp2ckKFUGzkwR3kEDu3bKmgM", "ChIJe1DEyKsHzkwRE9pktIvFVwc", "ChIJgU3zIQIFzkwRp7bpShs6MWY", "ChIJe8Cqtf8GzkwRiIifzt7ahto", "ChIJ4xvd0zYHzkwRTYubVAIehdE", "ChIJIwoTxKsHzkwRHvACod9vdTw", "ChIJe4Myg7kHzkwRaZHMyQKKMg8"],
+    "location": "45.335383, -75.724205",
+    "search": "grocery store",
+    "type": "grocery_or_supermarket, supermarket, food",
+    "radius": 2000,
+}
+
+bc_vancouver_oakridge = {
+    "name": "bc_vancouver_oakridge",
+    "ids": ["ChIJcw7KVWl0hlQR9P8OWNWbAY4", "ChIJ8yV9iBR0hlQRj_RpXbaIuZA", "ChIJ9flPCCd1hlQR34mEc4NGC5g", "ChIJA7fszgt0hlQRlCV22h6MHds", "ChIJkY-fWwZ0hlQRG1IpTa3DeSQ", "ChIJVVVVOld0hlQRSn2z0tvachc", "ChIJD-9or2p0hlQRdofxFCuxs9s", "ChIJ_fQRuZR0hlQRg9LGs1tj8Fc", "ChIJlU0lpZR0hlQRO35vFIny4vQ", "ChIJ43LS_gZ0hlQRsPCIcb8dPn8", "ChIJy9r9tGp0hlQRhtVG42WnppY", "ChIJbRBwjBR0hlQRUrZqD1lEnfE", "ChIJU6XJL_ZzhlQRUh7MjCJFna8", "ChIJHTH5C2l0hlQRthQx4tplAJk", "ChIJRbKvOhV0hlQR-Teo_i64Yck", "ChIJoww_V2l0hlQRBzqhaaORtYk", "ChIJgU0TMRV0hlQRKMp7sgqv--A"],
+    "location": "49.226240, -123.116974",
+    "search": "grocery store",
+    "type": "grocery_or_supermarket, supermarket, food",
+    "radius": 2000,
+}
+
+ontario_mississauga_streetsville = {
+    "name": "ontario_mississauga_streetsville",
+    "ids": ["ChIJnSA2sOFBK4gRl9d2npuIcd8", "ChIJr9fQacNBK4gRGv-ailUgLE0", "ChIJqzjm-09AK4gR2q4Kn5WXdhM", "ChIJJXFQ7JNBK4gRkYBX7LAYdnk", "ChIJIV1l4qhBK4gRdADJbmUi_yw", "ChIJs-LoKXlBK4gR119yz65bkrw", "ChIJIUmL4EtAK4gRe3XpCPFnQdo", "ChIJVa47R8lBK4gR7B-aEQ-YmT4", "ChIJQb8tDnhqK4gRN8btsM7FJoY", "ChIJ0e_VzcRBK4gR1jG2Ud3HPWY", "ChIJ10vN0vdAK4gRBuQBa27cA7c", "ChIJldtg3ktAK4gR2Ol2GL1vXYo"],
+    "location": "43.587847, -79.718299",
+    "search": "grocery store",
+    "type": "grocery_or_supermarket, supermarket, food",
+    "radius": 2000,
+}
+
+ontario_mississauga_meadowvale = {
+    "name": "ontario_mississauga_meadowvale",
+    "ids": ["ChIJi4bSUVcVK4gRoLMTM8hSRjQ", "ChIJ46tAvWBAK4gRxZuljRPyTH0", "ChIJHaTCrlet0kwR2YUHtVfWnas", "ChIJn6uhkPQ_K4gR0wFzcpocFno", "ChIJ4-uFVvc_K4gRRR7wc_ntCnU"],
+    "location": "43.628092, -79.724994",
+    "search": "grocery store",
+    "type": "grocery_or_supermarket, supermarket, food",
+    "radius": 2000,
+}
+
+
+
+#  mississauga _ west end streetsville, Meadowvale.
