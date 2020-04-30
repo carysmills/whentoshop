@@ -24,9 +24,14 @@ const supportedLocations = [
   "southkeys",
   "westboro",
   "littleportugaltoronto",
-  "pinedaleburlington",
+  "ontario_burlington",
   "cataraquinorthkingston",
-  "hastingssunrise"
+  "hastingssunrise",
+  "bc_whiterocksouthsurrey",
+  "ontario_peterborough",
+  "ontario_hamilton_waterdown",
+  "bc_vancouver_champlainheights",
+  "ontario_waterloo"
 ];
 
 export function Main() {
@@ -119,26 +124,37 @@ export function Main() {
               </option>
               <option value="northyork">Toronto - North York</option>
 
-              <option value="pinedaleburlington">Burlington - Pinedale</option>
+              <option value="ontario_burlington">Burlington</option>
 
               <option value="ontario_northumberland">
                 Cobourg - Northumberland
               </option>
               <option value="hamilton">Hamilton - Downtown</option>
+              <option value="ontario_hamilton_waterdown">
+                Hamilton - Waterdown
+              </option>
               <option value="cataraquinorthkingston">
                 Kingston - Cataraqui North
               </option>
-              <option value="ontario_mississauga_streetsville">
-                Streetsville - Mississauga
-              </option>
               <option value="ontario_mississauga_meadowvale">
-                Meadowvale - Mississauga
+                Mississauga - Meadowvale
               </option>
+              <option value="ontario_peterborough">Peterborough</option>
+              <option value="ontario_mississauga_streetsville">
+                Mississauga - Streetsville
+              </option>
+              <option value="ontario_waterloo">Waterloo</option>
               <option value="hastingssunrise">
                 Vancouver - Hastings-Sunrise
               </option>
               <option value="bc_vancouver_oakridge">
                 Vancouver - Oakridge
+              </option>
+              <option value="bc_vancouver_champlainheights">
+                Vancouver - Champlain Heights
+              </option>
+              <option value="bc_whiterocksouthsurrey">
+                White Rock/South Surrey
               </option>
             </select>
           </label>

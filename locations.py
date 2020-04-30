@@ -151,13 +151,13 @@ barrhaven = {
     "ids": ["ChIJv3HBC938zUwRtWn7EVJmYMA", "ChIJvxFzYUf9zUwRFnhE1eulGY0", "ChIJGZ_CpjH9zUwR4wZBqA1wOIw", "ChIJvbTAayf9zUwRy_rIekWZncg", "ChIJbcKy99z8zUwRyD7nvn3WVz0", "ChIJi7v1ldTizUwRksvamEg_Q5Y", "ChIJXRlHCtfizUwRtaaAKB2ICI4", "ChIJTZ374938zUwRLowMQPONC1A", "ChIJq04zogX9zUwR27ZC11an42Q", "ChIJr-RtXuD8zUwRB2PpwhtMIUk", "ChIJxQctiuD8zUwRGC81Z8apwkU", "ChIJ-zBWPK_9zUwRi3yrKxw-eGc", "ChIJGexwzt38zUwRplwL-gFIj7Y"]
 }
 
-pinedaleburlington = {
-    "name": "pinedaleburlington",
+ontario_burlington = {
+    "name": "ontario_burlington",
     "location": "43.380018, -79.752312",
     "search": "grocery store",
     "type": "grocery_or_supermarket, supermarket, food",
     "radius": 3000,
-    "ids": ["ChIJGXbUJUdgK4gR2n0B8rNxY_I", "ChIJS6ncl2JgK4gRR3RNRLvzVT4", "ChIJGcQP1LRhK4gRYHng30RlFM4", "ChIJZcyF1SxeK4gR2T73uqWi6sA", "ChIJDf9vaa9gK4gRxDt1Vjg0mcw", "ChIJK0Ka-2JgK4gRCFTXwNxklEw", "ChIJu6aXo3FeK4gRin4KcslLVU8", "ChIJBxCnrchhK4gRup9ayowNOo0"]
+    "ids": ["ChIJJzbI0o9hK4gR9-q_H2vZXls", "ChIJHSOtyBdiK4gRh60wMdVA9F4", "ChIJxVQ_b49hK4gROLzcvhbEPcc", "ChIJ3ej6CPlhK4gRZ2XuCNctuDc", "ChIJGXbUJUdgK4gR2n0B8rNxY_I", "ChIJS6ncl2JgK4gRR3RNRLvzVT4", "ChIJGcQP1LRhK4gRYHng30RlFM4", "ChIJZcyF1SxeK4gR2T73uqWi6sA", "ChIJDf9vaa9gK4gRxDt1Vjg0mcw", "ChIJK0Ka-2JgK4gRCFTXwNxklEw", "ChIJu6aXo3FeK4gRin4KcslLVU8", "ChIJBxCnrchhK4gRup9ayowNOo0"]
 }
 
 ontario_toronto_upperjarvis = {
@@ -214,6 +214,41 @@ ontario_mississauga_meadowvale = {
     "radius": 2000,
 }
 
+bc_whiterocksouthsurrey = {
+    "name": "bc_whiterocksouthsurrey",
+    "ids": ["ChIJpcSUAX3DhVQRf8m_RGpVRj4", "ChIJzVh-JJTEhVQROX7wafqz2V4", "ChIJSdDYsnzEhVQR1TJ19rgP5Xk", "ChIJixTmUZLEhVQRHouVLhfIevo", "ChIJH3_qBJjEhVQRUxyQu3Fc0ss", "ChIJqRdBbLrEhVQRrxPZZFOc-bA", "ChIJ90k6ZrLEhVQRb7yzKHGevRo", "ChIJa361FrLEhVQRCoxeFYc97vk"],
+    "search": "grocery store",
+    "type": "grocery_or_supermarket, supermarket, food",
+}
 
+ontario_peterborough = {
+    "name": "ontario_peterborough",
+    "ids": ["ChIJP2wKMaCN1YkR5rvP-mx-0S8", "ChIJq3HDv7qN1YkRK5wsUdefgxY", "ChIJ-yd73gaN1YkRtiJjP0pGWLw"],
+    "search": "grocery store",
+    "type": "grocery_or_supermarket, supermarket, food",
+}
 
-#  mississauga _ west end streetsville, Meadowvale.
+ontario_hamilton_waterdown = {
+    "name": "ontario_hamilton_waterdown",
+    "ids": ["ChIJqSQ0u1ydLIgRfQYnxy8AppE", "ChIJsaHDbUSdLIgRAdp3YiqP18Y", "ChIJWVCGnzGdLIgRL1dFppQ2gQc", "ChIJhQ5Ple7VhVQRRW7cZJ6z9OU"],
+    "search": "grocery store",
+    "type": "grocery_or_supermarket, supermarket, food",
+}
+
+bc_vancouver_champlainheights = {
+    "name": "bc_vancouver_champlainheights",
+    "search": "grocery store",
+    "type": "grocery_or_supermarket, supermarket, food",
+    "location": "49.213032, -123.028474",
+    "radius": 2000,
+    "ids": ["ChIJl5n8BoB2hlQRpu5IKq6St0E", "ChIJDVODgCh0hlQRBExJUi9OYwk", "ChIJLy69Ymd2hlQRf5xSxRlc8P4", "ChIJ9Rq57lh2hlQRuEUOvsMasks", "ChIJFZO123J2hlQRwiubG1viZ2Q", "ChIJn7ylHfZ2hlQR4_v7E0j7kKk", "ChIJGabuQPZ2hlQRAlNmZmESJ6k", "ChIJYSSGy3V2hlQReqPxwSKu7kQ", "ChIJP1td21t2hlQR632Pi7WvjQY", "ChIJn7ylHfZ2hlQRAbHBqky4xPs", "ChIJi8FbiNR1hlQRHMZa8sEl4S0", "ChIJp3jgrXFxhlQRvU5ND1286Lk", "ChIJEX09Shp3hlQR_6iIwlVyqlk", "ChIJv-mQ5412hlQRzPs2IfuyGGM", "ChIJVYxYDLh1hlQRj2X8kkaLJCk", "ChIJQYxv_Vh2hlQRZ_fuLinYuhk", "ChIJIQ1pJHl2hlQRBXHz1NeiReM", "ChIJ75h9Efp3hlQR4Y00UjIs0uw", "ChIJ21AN8ox3hlQR2C-RvsAxTTk"]
+}
+
+ontario_waterloo = {
+    "name": "ontario_waterloo",
+    "search": "grocery store",
+    "type": "grocery_or_supermarket, supermarket, food",
+    "location": "43.486930, -80.535048",
+    "radius": 2000,
+    "ids": ["ChIJT9cWsgf0K4gR2TCgrPGCWVo", "ChIJPfyO4Xb0K4gR_NtfIEtrsRU", "ChIJd6wbGMHzK4gReedkfyXzm3Q", "ChIJBbwKTWfxK4gRep4AC-KAoxM", "ChIJt20_EmTzK4gRyEMp8Fmg7J4", "ChIJPw8MXs_zK4gRmCOw9dJzbLk", "ChIJwdb1ZvTzK4gRgPAsIiDE9_E", "ChIJp8X_UHb0K4gRwx98sSjWw4Q", "ChIJ66MI1_zzK4gRiKAi6eq772s", "ChIJQQgdSgH0K4gRFRTdQ90Wi94", "ChIJbUGyrnb0K4gRkCLcvxrlahM", "ChIJq6qauFDxK4gRH_vO-rNipj0", "ChIJgS0Cesj2K4gRHjt-MSGU3t4", "ChIJXc1D5_D2K4gRdN1vqQKHt4o", "ChIJKfXqtPL2K4gRWPbLxMEoHx8", "ChIJsV20BoL2K4gR-pB8q7AfHIM", "ChIJVclhsZ_2K4gRcVPgdVsuQUg", "ChIJE798VS_3K4gRpSkSsZOYUY8", "ChIJZ-8FkiX3K4gRoUHjRCXcekg", "ChIJUXP37Hv1K4gRMe9S0YmqAC4", "ChIJsX4Qn5H3K4gR04mtWKU-5mo", "ChIJPaFOYGH2K4gRFZMZ5EpiIxs", "ChIJQQgdSgH0K4gRFRTdQ90Wi94"]
+}
