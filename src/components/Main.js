@@ -78,9 +78,9 @@ export function Main() {
             These charts were built in response to COVID-19, to help find
             offpeak times to get groceries.
           </strong>
-          &nbsp; The data indicates how busy a particular location is, compared
-          to its own peak times. Popularity data is based on compiled Google
-          searches, Google Maps location data and local traffic data, via the{" "}
+          &nbsp; The charts, which indicate how busy a particular location is
+          compared to its own peak times, use Google Maps popular times data,
+          via the{" "}
           <a href="https://github.com/m-wrzr/populartimes">
             populartimes library.
           </a>{" "}
