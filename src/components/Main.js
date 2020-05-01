@@ -74,18 +74,17 @@ export function Main() {
     <>
       <div className="intro">
         <p>
-          <strong>
-            These charts were built in response to COVID-19, to help find
-            offpeak times to get groceries.
-          </strong>
-          &nbsp; The charts, which indicate how busy a particular location is
-          compared to its own peak times, use Google Maps popular times data,
-          via the{" "}
+          These charts were built in response to COVID-19, to help estimate
+          offpeak times to get groceries. The charts, which indicate how busy a
+          particular location is compared to its own peak times, use Google Maps
+          popular times data, via the{" "}
           <a href="https://github.com/m-wrzr/populartimes">
             populartimes library.
           </a>{" "}
-          Make sure to check directly with stores about their hours before
-          venturing out.
+          <strong>
+            Make sure to check directly with stores about their hours before
+            venturing out.
+          </strong>
         </p>
       </div>
 
