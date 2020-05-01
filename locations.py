@@ -1,5 +1,5 @@
 downtownottawa = {
-  "name": "downtownottawa",
+  "name": "downtownottawaplz",
   "location": "45.416475,-75.687133",
   "search": "groceries",
   "type": "grocery_or_supermarket, supermarket",
