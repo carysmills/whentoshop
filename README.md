@@ -17,7 +17,6 @@ A simple React app that displays when grocery stores are busiest in a community,
 
 ### To modify or add locations:
 
-- Create an empty `data` directory in the `public` directory.
 - To fetch new locations locally, you will need to create a `config.py` file in the top level of the repo. It needs to contain the following: `api_key = “yourAPIkey”`, where `yourAPIkey` is an [API key for the Google Places API](https://developers.google.com/places/web-service/get-api-key). 
 - Run `python scraper.py` at the top level of the repo to fetch fresh data for the existing locations.
 
