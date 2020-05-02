@@ -20,9 +20,10 @@ export function About() {
         >
           populartimes Python library
         </a>
-        . Data is collected once per day. Make sure to check directly with
-        grocery stores about their hours and if they have special hours
-        dedicated to seniors shopping or others at risk.
+        . Data is collected for this website is scraped once per day. Google's
+        data represents average popularity over the last few months. Make sure
+        to check directly with grocery stores about their hours and if they have
+        special hours dedicated to seniors shopping or others at risk.
       </p>
 
       <p>
