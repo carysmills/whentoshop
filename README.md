@@ -6,17 +6,18 @@ A simple React app that displays when grocery stores are busiest in a community,
 
 ## Getting started
 
-To modify the UI only:
+### To modify the UI only:
 
 - Create a `data` directory withiin the `public` directory. Move over data files from https://whento.shop/data to `data`.
 - Local development should now work for front-end changes.
 
-To modify or add locations:
+### To modify or add locations:
+
 - Create an empty `data` directory in the `public` directory.
 - To fetch new locations locally, you will need to create a `config.py` file in the top level of the repo. It needs to contain the following: `api_key = “yourAPIkey”`, where `yourAPIkey` is an [API key for the Google Places API](https://developers.google.com/places/web-service/get-api-key). 
 - Run `python scraper.py` at the top level of the repo to fetch fresh data for the existing locations.
 
-To add a new location:
+#### To add a new location:
 - Create a new location in the the `locations.py` file, with a lat and long location at the centre of where you want to search and an appropriate radius in meters. 
 - In `scraper.py`, add `getIds(coords=location.YOUR_LOCATION_NAME`). Run it from the terminal using `python scraper.py`. Once you get grocery store locations back, look them over before adding them to the IDs key in the locations file for your location to make sure they should be added. 
 - Remove the `getIds` function from `scraper.py`. Add `scrapeData(coords=locations.YOUR_LOCATION_NAME` to `scraper.py` and run by running `python scraper.py` in your terminal. 
