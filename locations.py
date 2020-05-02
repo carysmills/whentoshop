@@ -40,7 +40,7 @@ downtowntoronto = {
     "search": "grocery store",
     "type": "grocery_or_supermarket, supermarket, food",
     "radius": 1500,
-    'ids': ['ChIJfXR0TTTL1IkRRCXPft4uElg', 'ChIJS8ex5dE0K4gRc2WoAZBpGyg', 'ChIJ9aCUito0K4gRaQ4uyEb8PnY', 'ChIJlV8eEbI0K4gR8jaJVJ2r0Fc', "ChIJuZu8tMU0K4gR-jf54-3bnKM", "ChIJVYv3SkvL1IkR96L2cOdWbwI", "ChIJERpq1bE0K4gR4emryKqdRvw", "ChIJG0OtxNI0K4gRgIuB-qko08E", "ChIJi3ZRr8s0K4gRAgmYPLFnjwk", "ChIJSY9zPUrL1IkRBIPqhtvjRJ8", "ChIJ30lx1dk0K4gRkPIgCjB_FVk",  "ChIJm2GMhzrL1IkR6mgfQaFotLo", "ChIJWbkk4LM0K4gR0sFtuPCSSqA", "ChIJ67G2SzrL1IkR1iHO_S43j3k", "ChIJc8WD27E0K4gRF4JOB2iHBYw", "ChIJkUM1vso0K4gR_F6GiU6TwEE", "ChIJLbmFAUfL1IkR2oyVtMaHMYo",  "ChIJgZl7CK40K4gRz-ATiRIigKQ", "ChIJxaN0C1DL1IkRKlkZhUfARr4", "ChIJsZmBv0XL1IkRLBGzG1FQjbQ"]
+    'ids': ['ChIJaX1BV9U0K4gRFTybBmm3908', 'ChIJt7OCSivL1IkRagg6cMmxGcQ','ChIJu_mWld00K4gR8brxjWA0WGo', 'ChIJ78Ql7Ms0K4gRh1DN-ZPfL_4', 'ChIJfXR0TTTL1IkRRCXPft4uElg', 'ChIJS8ex5dE0K4gRc2WoAZBpGyg', 'ChIJ9aCUito0K4gRaQ4uyEb8PnY', 'ChIJlV8eEbI0K4gR8jaJVJ2r0Fc', "ChIJuZu8tMU0K4gR-jf54-3bnKM", "ChIJVYv3SkvL1IkR96L2cOdWbwI", "ChIJERpq1bE0K4gR4emryKqdRvw", "ChIJG0OtxNI0K4gRgIuB-qko08E", "ChIJi3ZRr8s0K4gRAgmYPLFnjwk", "ChIJSY9zPUrL1IkRBIPqhtvjRJ8", "ChIJ30lx1dk0K4gRkPIgCjB_FVk",  "ChIJm2GMhzrL1IkR6mgfQaFotLo", "ChIJWbkk4LM0K4gR0sFtuPCSSqA", "ChIJ67G2SzrL1IkR1iHO_S43j3k", "ChIJc8WD27E0K4gRF4JOB2iHBYw", "ChIJkUM1vso0K4gR_F6GiU6TwEE", "ChIJLbmFAUfL1IkR2oyVtMaHMYo",  "ChIJgZl7CK40K4gRz-ATiRIigKQ", "ChIJxaN0C1DL1IkRKlkZhUfARr4", "ChIJsZmBv0XL1IkRLBGzG1FQjbQ"]
 }
 
 hamilton = {
@@ -251,4 +251,27 @@ ontario_waterloo = {
     "location": "43.486930, -80.535048",
     "radius": 2000,
     "ids": ["ChIJT9cWsgf0K4gR2TCgrPGCWVo", "ChIJPfyO4Xb0K4gR_NtfIEtrsRU", "ChIJd6wbGMHzK4gReedkfyXzm3Q", "ChIJBbwKTWfxK4gRep4AC-KAoxM", "ChIJt20_EmTzK4gRyEMp8Fmg7J4", "ChIJPw8MXs_zK4gRmCOw9dJzbLk", "ChIJwdb1ZvTzK4gRgPAsIiDE9_E", "ChIJp8X_UHb0K4gRwx98sSjWw4Q", "ChIJ66MI1_zzK4gRiKAi6eq772s", "ChIJQQgdSgH0K4gRFRTdQ90Wi94", "ChIJbUGyrnb0K4gRkCLcvxrlahM", "ChIJq6qauFDxK4gRH_vO-rNipj0", "ChIJgS0Cesj2K4gRHjt-MSGU3t4", "ChIJXc1D5_D2K4gRdN1vqQKHt4o", "ChIJKfXqtPL2K4gRWPbLxMEoHx8", "ChIJsV20BoL2K4gR-pB8q7AfHIM", "ChIJVclhsZ_2K4gRcVPgdVsuQUg", "ChIJE798VS_3K4gRpSkSsZOYUY8", "ChIJZ-8FkiX3K4gRoUHjRCXcekg", "ChIJUXP37Hv1K4gRMe9S0YmqAC4", "ChIJsX4Qn5H3K4gR04mtWKU-5mo", "ChIJPaFOYGH2K4gRFZMZ5EpiIxs", "ChIJQQgdSgH0K4gRFRTdQ90Wi94"]
+}
+
+ontario_toronto_annex = {
+    "name": "ontario_toronto_annex",
+    "search": "grocery store",
+    "type": "grocery_or_supermarket, supermarket, food",
+    "ids": ["ChIJ1WDEXqQ0K4gRJM29vvRuTsU", "ChIJQV4I4qE0K4gRcIH5vxXAjx4", "ChIJzVJWnog0K4gROMK4D99Sp_I", "ChIJZ0puJok0K4gRC9_SX1w6hAY", "ChIJPwwGBo00K4gRBqFKQ4BrU8Q", "ChIJKwFJp400K4gR4BFhg6ML-JM", "ChIJG_e1cZI0K4gR6MwQePjF1f0", "ChIJwcwvNpI0K4gR47JfRdfjzeg", "ChIJk-HKXBY1K4gR-nGYepjpGn0", "ChIJFZZvu700K4gR79yC0PjRxjg", "ChIJScOUb5Y0K4gRXMOJ6YRjuMs"]
+}
+
+ontario_toronto_scarboroughvillage = {
+    "name": "ontario_toronto_scarboroughvillage",
+    "search": "grocery store",
+    "type": "grocery_or_supermarket, supermarket, food",
+    "location": "43.739310, -79.217432",
+    "radius": 2000,
+    "ids": ["ChIJJze_Xx_Q1IkRLZDe3Hg6XlY", "ChIJqVcFMBnQ1IkROYXXYlv5120", "ChIJLaDI9afa1IkRCkDzgzcl3Dk", "ChIJwT06Poja1IkR9DluU3Ec63M", "ChIJ9wmV2eDQ1IkRn3MqTLDA-tM", "ChIJHba6BjjQ1IkR26KkIgzIi40", "ChIJJcZ9PBnQ1IkRGXDyt7ReZ4I", "ChIJZ6f6bUDQ1IkR-Yo3nohsSE0", "ChIJJdDBdfHR1IkRb1b2vJlblFo", "ChIJy13q2BvQ1IkR9J6M3ZasXuQ", "ChIJ65FvhTjQ1IkRvngqiKj21c0", "ChIJ6xCcRBnQ1IkRDO6sh0K_DCI", "ChIJC4yAMsjP1IkRcI_waj2vCcs", "ChIJGfk9XBnQ1IkRjkZnFTmaWCw", "ChIJW9SkaUDQ1IkRNmgwsklrs-Y", "ChIJS73ISCvQ1IkRixu_XGmCEGI", "ChIJ__8vGYXa1IkRWM6mWMXBjVg"]
+}
+
+ontario_ottawa_pineview = {
+    "name": "ontario_ottawa_pineview",
+    "search": "grocery store",
+    "type": "grocery_or_supermarket, supermarket, food",
+    "ids": ["ChIJi94M5KsPzkwRn6D3gRPZsbA", "ChIJxaWVrsEPzkwROXT0myNpp80", "ChIJBQ8CSI4PzkwRGSLb20yccjo", "ChIJC4iitogPzkwRN-pt8Vm7j9g", "ChIJSTtMhnYPzkwRtT1-FPwESh4"]
 }

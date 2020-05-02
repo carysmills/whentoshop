@@ -31,7 +31,10 @@ const supportedLocations = [
   "ontario_peterborough",
   "ontario_hamilton_waterdown",
   "bc_vancouver_champlainheights",
-  "ontario_waterloo"
+  "ontario_waterloo",
+  "ontario_toronto_annex",
+  "ontario_toronto_scarboroughvillage",
+  "ontario_ottawa_pineview"
 ];
 
 export function Main() {
@@ -108,23 +111,24 @@ export function Main() {
               <option value="kanata">Ottawa - Kanata</option>
               <option value="ontario_ottawa_nepean">Ottawa - Nepean</option>
               <option value="orleans">Ottawa - Orleans</option>
+              <option value="ontario_ottawa_pineview">Ottawa - Pineview</option>
               <option value="sandyhill">Ottawa - Sandy Hill</option>
               <option value="southkeys">Ottawa - South Keys</option>
               <option value="westboro">Ottawa - Westboro</option>
-
+              <option value="ontario_toronto_annex">Toronto - Annex</option>
               <option value="downtowntoronto">Toronto - Downtown</option>
               <option value="eastyork">Toronto - East York</option>
-              <option value="ontario_toronto_upperjarvis">
-                Toronto - Upper Jarvis
-              </option>
-
               <option value="littleportugaltoronto">
                 Toronto - Little Portugal
               </option>
               <option value="northyork">Toronto - North York</option>
-
+              <option value="ontario_toronto_scarboroughvillage">
+                Toronto - Scarborough Village
+              </option>
+              <option value="ontario_toronto_upperjarvis">
+                Toronto - Upper Jarvis
+              </option>
               <option value="ontario_burlington">Burlington</option>
-
               <option value="ontario_northumberland">
                 Cobourg - Northumberland
               </option>
