@@ -20,9 +20,9 @@ export function About() {
         >
           populartimes Python library
         </a>
-        . Data is collected for this website is scraped once per day. Google's
-        data represents average popularity over the last few months. Make sure
-        to check directly with grocery stores about their hours and if they have
+        . Data for this website is scraped once per day, however Google's data
+        represents average popularity over the last few months. Make sure to
+        check directly with grocery stores about their hours and if they have
         special hours dedicated to seniors shopping or others at risk.
       </p>
 
@@ -31,6 +31,13 @@ export function About() {
         <a href="mailto:when2shop19@gmail.com">send a note</a> with your
         neighbourhood name and either a postal code or the specific stores you'd
         like to see listed there.
+      </p>
+
+      <p>
+        Want to contribute?&nbsp;
+        <a href="https://github.com/carysmills/whentoshop">
+          Pull requests are welcome.
+        </a>
       </p>
     </div>
   );
