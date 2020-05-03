@@ -10,7 +10,6 @@ A simple React app that displays when grocery stores are busiest in a community,
 
 - Clone this repo.
 - Create a `data` directory within the `public` directory. Move over data files from https://whento.shop/data to `data`.
-- Local development should now work for front-end changes.
 - run `yarn install`
 - run `yarn start`
 - the app will open in your browser using localhost
@@ -18,6 +17,7 @@ A simple React app that displays when grocery stores are busiest in a community,
 ### To modify or add locations:
 
 - To fetch new locations locally, you will need to create a `config.py` file in the top level of the repo. It needs to contain the following: `api_key = “yourAPIkey”`, where `yourAPIkey` is an [API key for the Google Places API](https://developers.google.com/places/web-service/get-api-key).
+- Install `populartimes` by running `pip install --upgrade git+https://github.com/m-wrzr/populartimes`
 - Run `python scraper.py` at the top level of the repo to fetch fresh data for the existing locations.
 
 #### To add a new location:
