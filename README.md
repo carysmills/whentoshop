@@ -17,12 +17,13 @@ A simple React app that displays when grocery stores are busiest in a community,
 
 ### To modify or add locations:
 
-- To fetch new locations locally, you will need to create a `config.py` file in the top level of the repo. It needs to contain the following: `api_key = “yourAPIkey”`, where `yourAPIkey` is an [API key for the Google Places API](https://developers.google.com/places/web-service/get-api-key). 
+- To fetch new locations locally, you will need to create a `config.py` file in the top level of the repo. It needs to contain the following: `api_key = “yourAPIkey”`, where `yourAPIkey` is an [API key for the Google Places API](https://developers.google.com/places/web-service/get-api-key).
 - Run `python scraper.py` at the top level of the repo to fetch fresh data for the existing locations.
 
 #### To add a new location:
-- Create a new location in the the `locations.py` file, with a lat and long location at the centre of where you want to search and an appropriate radius in meters. 
-- In `scraper.py`, add `getIds(coords=location.YOUR_LOCATION_NAME`). Run it from the terminal using `python scraper.py`. Once you get grocery store locations back, look them over before adding them to the IDs key in the locations file for your location to make sure they should be added. 
-- Remove the `getIds` function from `scraper.py`. Add `scrapeData(coords=locations.YOUR_LOCATION_NAME` to `scraper.py` and run by running `python scraper.py` in your terminal. 
+
+- Create a new location in the the `locations.py` file, with a lat and long location at the centre of where you want to search and an appropriate radius in meters.
+- In `scraper.py`, add `getIds(coords=location.YOUR_LOCATION_NAME`). Run it from the terminal using `python scraper.py`. Once you get grocery store locations back, look them over before adding them to the IDs key in the locations file for your location to make sure they should be added.
+- Remove the `getIds` function from `scraper.py`. Run by running `python scraper.py` in your terminal to get data for the new location (if you don't want to repeat getting existing data - comment out the other locastions).
 - Once finished, you will be able to see a file created in the data directory.
--  To see the results in the front-end, add an option element with the value of your location name within the `select`. Also add the name of your location to the URL params whitelist at the top of the file. (Planning to make this process more streamlined 🔜).
+- To see the results in the front-end, add an option element with the value of your location name within the `select`. Also add the name of your location to the URL params whitelist at the top of the file. (Planning to make this process more streamlined 🔜).
