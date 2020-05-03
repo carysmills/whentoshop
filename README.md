@@ -9,7 +9,7 @@ A simple React app that displays when grocery stores are busiest in a community,
 ### To modify the UI:
 
 - Clone this repo.
-- Create a `data` directory withiin the `public` directory. Move over data files from https://whento.shop/data to `data`.
+- Create a `data` directory within the `public` directory. Move over data files from https://whento.shop/data to `data`.
 - Local development should now work for front-end changes.
 - run `yarn install`
 - run `yarn start`
