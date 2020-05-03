@@ -25,7 +25,7 @@ const supportedLocations = [
   "westboro",
   "littleportugaltoronto",
   "ontario_burlington",
-  "cataraquinorthkingston",
+  "ontario_kingston",
   "hastingssunrise",
   "bc_whiterocksouthsurrey",
   "ontario_peterborough",
@@ -34,7 +34,15 @@ const supportedLocations = [
   "ontario_waterloo",
   "ontario_toronto_annex",
   "ontario_toronto_scarboroughvillage",
-  "ontario_ottawa_pineview"
+  "ontario_ottawa_gloucester",
+  "ontario_ottawa_altavista",
+  "ontario_ottawa_vanier",
+  "ontario_ottawa_trainyards",
+  "ontario_ottawa_bellscorners",
+  "ontario_ottawa_manotick",
+  "ontario_cornwall",
+  "ontario_ancaster",
+  "ontario_simcoe"
 ];
 
 export function Main() {
@@ -103,17 +111,30 @@ export function Main() {
               <option disabled value="">
                 --Please choose a location--
               </option>
+              <option value="ontario_ottawa_altavista">
+                Ottawa - Alta Vista
+              </option>
               <option value="barrhaven">Ottawa - Barrhaven</option>
               <option value="beechwood">Ottawa - Beechwood</option>
+              <option value="ontario_ottawa_bellscorners">
+                Ottawa - Bells Corners
+              </option>
               <option value="downtownottawa">Ottawa - Centretown</option>
               <option value="glebe">Ottawa - Glebe</option>
+              <option value="ontario_ottawa_gloucester">
+                Ottawa - Gloucester
+              </option>
               <option value="hintonburg">Ottawa - Hintonburg</option>
               <option value="kanata">Ottawa - Kanata</option>
+              <option value="ontario_ottawa_manotick">Ottawa - Manotick</option>
               <option value="ontario_ottawa_nepean">Ottawa - Nepean</option>
               <option value="orleans">Ottawa - Orleans</option>
-              <option value="ontario_ottawa_pineview">Ottawa - Pineview</option>
               <option value="sandyhill">Ottawa - Sandy Hill</option>
               <option value="southkeys">Ottawa - South Keys</option>
+              <option value="ontario_ottawa_trainyards">
+                Ottawa - Train Yards
+              </option>
+              <option value="ontario_ottawa_vanier">Ottawa - Vanier</option>
               <option value="westboro">Ottawa - Westboro</option>
               <option value="ontario_toronto_annex">Toronto - Annex</option>
               <option value="downtowntoronto">Toronto - Downtown</option>
@@ -128,24 +149,25 @@ export function Main() {
               <option value="ontario_toronto_upperjarvis">
                 Toronto - Upper Jarvis
               </option>
+              <option value="ontario_ancaster">Ancaster</option>
               <option value="ontario_burlington">Burlington</option>
               <option value="ontario_northumberland">
                 Cobourg - Northumberland
               </option>
+              <option value="ontario_cornwall">Cornwall</option>
               <option value="hamilton">Hamilton - Downtown</option>
               <option value="ontario_hamilton_waterdown">
                 Hamilton - Waterdown
               </option>
-              <option value="cataraquinorthkingston">
-                Kingston - Cataraqui North
-              </option>
+              <option value="ontario_kingston">Kingston</option>
               <option value="ontario_mississauga_meadowvale">
                 Mississauga - Meadowvale
               </option>
-              <option value="ontario_peterborough">Peterborough</option>
               <option value="ontario_mississauga_streetsville">
                 Mississauga - Streetsville
               </option>
+              <option value="ontario_peterborough">Peterborough</option>
+              <option value="ontario_simcoe">Simcoe</option>
               <option value="ontario_waterloo">Waterloo</option>
               <option value="hastingssunrise">
                 Vancouver - Hastings-Sunrise
