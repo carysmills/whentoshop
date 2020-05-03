@@ -276,5 +276,29 @@ locations = {
     "ontario_simcoe": {
         "name": "ontario_simcoe",
         "ids": ["ChIJxftNxA1OLIgRfYrMl2fcmj8", "ChIJvSSX1sFNLIgRzMth7Dw-sHk", "ChIJoeYKFdpNLIgRZaG65oe-VII"]
+    },
+    "quebec_gatineau_aylmer": {
+        "name": "quebec_gatineau_aylmer",
+        "search": "grocery store",
+        "type": "grocery_or_supermarket, supermarket, food",
+        "location": "45.401982,-75.824026",
+        "radius": 3000,
+        "ids": ["ChIJx9rdNBACzkwRipj_1L9S7SA", "ChIJx5WSaIwBzkwRQCcBkNeft-s", "ChIJ69jzMPIBzkwRXRBUAY4pn3g", "ChIJdcleAzYCzkwR19GkYHfeKmo", "ChIJHdJc33MlVUAR4DpYG9U3n-w", "ChIJ22Fo7YwBzkwRusHoMncvVxg", "ChIJ6xxL7YsBzkwRZA_6XbFFAFM"]
+    },
+    "quebec_gatineau_hull": {
+        "name": "quebec_gatineau_hull",
+        "search": "grocery store",
+        "type": "grocery_or_supermarket, supermarket, food",
+        "location": "45.443225,-75.747220",
+        "radius": 3300,
+        "ids": ["ChIJv79V4acDzkwRykxhKY-AjC4", "ChIJ0SdOgZwEzkwRY2B3sFapSlA", "ChIJq_d4rHQDzkwRFkLvRlMZB9M", "ChIJl4j9YIwEzkwRUqevw1Ferhs", "ChIJTT2Iip8EzkwRjF_JIqqEbbE", "ChIJbdb4I04DzkwRLNdSVKi02N4", "ChIJH9YmCrEczkwRlINBSPI11VM", "ChIJk3CVR4sEzkwRvPK496dPI5c", "ChIJh9cO0UEDzkwRKXvCB8O89uw", "ChIJgYFXFQkDzkwR5PpVxvnJEkU", "ChIJB6Ev1qYEzkwRWPFi970KwUk"]
+    },
+    "quebec_gatineau_gatineau": {
+        "name": "quebec_gatineau_gatineau",
+        "search": "grocery store",
+        "type": "grocery_or_supermarket, supermarket, food",
+        "location": "45.508293,-75.683070",
+        "radius": 6000,
+        "ids": ["ChIJz6AiHFcbzkwRJ8RjTLqUQYI", "ChIJW0ypj0EbzkwR439psIfeLdU", "ChIJzY9ajWUbzkwRhISYIEbYpPM", "ChIJecjAmGUbzkwRxhR2oSSzNXM", "ChIJl6OIDGUbzkwRDpP-pbAPzNQ", "ChIJGTR_C6MbzkwRqIYzoRDWW_c", "ChIJOba12wgbzkwRFnqJNVDUORM", "ChIJIc6_xDwbzkwREKCwYchnQ8Q"]
     }
 }

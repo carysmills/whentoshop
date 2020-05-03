@@ -15,6 +15,11 @@ def scrapeData(coords):
 
     for key in coords['ids']:
         result = populartimes.get_id(config.api_key, key)
+        try:
+            result = populartimes.get_id(config.api_key, key)
+        except Exception:
+            logging.exception("Could not get place id `%s`", key)
+            continue
         if "populartimes" in result:
             popularresults.append(result)
 
