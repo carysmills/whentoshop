@@ -42,7 +42,10 @@ const supportedLocations = [
   "ontario_ottawa_manotick",
   "ontario_cornwall",
   "ontario_ancaster",
-  "ontario_simcoe"
+  "ontario_simcoe",
+  "quebec_gatineau_aylmer",
+  "quebec_gatineau_hull",
+  "quebec_gatineau_gatineau"
 ];
 
 export function Main() {
@@ -180,6 +183,15 @@ export function Main() {
               </option>
               <option value="bc_whiterocksouthsurrey">
                 White Rock/South Surrey
+              </option>
+              <option value="quebec_gatineau_aylmer">
+                Gatineau - Aylmer
+              </option>
+              <option value="quebec_gatineau_gatineau">
+              Gatineau - Gatineau
+              </option>
+              <option value="quebec_gatineau_hull">
+              Gatineau - Hull
               </option>
             </select>
           </label>
