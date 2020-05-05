@@ -1,14 +1,7 @@
 import populartimes
 import config
 import json
-import googlemaps
 import locations
-
-def getIds(coords):
-    gmaps = googlemaps.Client(key=config.api_key)
-    stores = gmaps.places_nearby(keyword=coords['search'], type=coords['type'], location=coords['location'], radius=coords['radius'])
-    print(stores['results'])
-
 
 def scrapeData(coords):
     popularresults = []
@@ -18,7 +11,7 @@ def scrapeData(coords):
         if "populartimes" in result:
             popularresults.append(result)
 
-    filename = 'public/data/' + coords['name'] + '.json'
+    filename = '../public/data/' + coords['name'] + '.json'
     with open(filename, 'w') as outfile:
         json.dump(popularresults, outfile)
 
