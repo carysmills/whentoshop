@@ -299,6 +299,6 @@ locations = {
         "type": "grocery_or_supermarket, supermarket, food",
         "location": "45.508293,-75.683070",
         "radius": 6000,
-        "ids": ["ChIJz6AiHFcbzkwRJ8RjTLqUQYI", "ChIJW0ypj0EbzkwR439psIfeLdU", "ChIJzY9ajWUbzkwRhISYIEbYpPM", "ChIJecjAmGUbzkwRxhR2oSSzNXM", "ChIJl6OIDGUbzkwRDpP-pbAPzNQ", "ChIJGTR_C6MbzkwRqIYzoRDWW_c", "ChIJOba12wgbzkwRFnqJNVDUORM", "ChIJIc6_xDwbzkwREKCwYchnQ8Q"]
+        "ids": ["ChIJz6AiHFcbzkwRJ8RjTLqUQYI", "ChIJW0ypj0EbzkwR439psIfeLdU", "ChIJzY9ajWUbzkwRhISYIEbYpPM", "ChIJecjAmGUbzkwRxhR2oSSzNXM", "ChIJl6OIDGUbzkwRDpP-pbAPzNQ", "ChIJGTR_C6MbzkwRqIYzoRDWW_c", "ChIJOba12wgbzkwRFnqJNVDUORM", "ChIJIc6_xDwbzkwREKCwYchnQ8Q", "ChIJLUWhbUEbzkwRmI4k2vupFxM"]
     }
 }
