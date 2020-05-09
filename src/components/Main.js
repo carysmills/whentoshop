@@ -33,7 +33,10 @@ const supportedLocations = [
   "bc_vancouver_champlainheights",
   "ontario_waterloo",
   "ontario_toronto_annex",
+  "ontario_toronto_etobicoke",
+  "ontario_toronto_midtown",
   "ontario_toronto_scarboroughvillage",
+  "ontario_toronto_yorkdistrict",
   "ontario_ottawa_gloucester",
   "ontario_ottawa_altavista",
   "ontario_ottawa_vanier",
@@ -142,15 +145,20 @@ export function Main() {
               <option value="ontario_toronto_annex">Toronto - Annex</option>
               <option value="downtowntoronto">Toronto - Downtown</option>
               <option value="eastyork">Toronto - East York</option>
+              <option value="ontario_toronto_etobicoke">Toronto - Etobicoke</option>
               <option value="littleportugaltoronto">
                 Toronto - Little Portugal
               </option>
+              <option value="ontario_toronto_midtown">Toronto - Midtown</option>
               <option value="northyork">Toronto - North York</option>
               <option value="ontario_toronto_scarboroughvillage">
                 Toronto - Scarborough Village
               </option>
               <option value="ontario_toronto_upperjarvis">
                 Toronto - Upper Jarvis
+              </option>
+              <option value="ontario_toronto_yorkdistrict">
+                Toronto - York District
               </option>
               <option value="ontario_ancaster">Ancaster</option>
               <option value="ontario_burlington">Burlington</option>

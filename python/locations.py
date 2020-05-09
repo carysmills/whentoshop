@@ -239,6 +239,30 @@ locations = {
         "radius": 2000,
         "ids": ["ChIJJze_Xx_Q1IkRLZDe3Hg6XlY", "ChIJqVcFMBnQ1IkROYXXYlv5120", "ChIJLaDI9afa1IkRCkDzgzcl3Dk", "ChIJwT06Poja1IkR9DluU3Ec63M", "ChIJ9wmV2eDQ1IkRn3MqTLDA-tM", "ChIJHba6BjjQ1IkR26KkIgzIi40", "ChIJJcZ9PBnQ1IkRGXDyt7ReZ4I", "ChIJZ6f6bUDQ1IkR-Yo3nohsSE0", "ChIJJdDBdfHR1IkRb1b2vJlblFo", "ChIJy13q2BvQ1IkR9J6M3ZasXuQ", "ChIJ65FvhTjQ1IkRvngqiKj21c0", "ChIJ6xCcRBnQ1IkRDO6sh0K_DCI", "ChIJC4yAMsjP1IkRcI_waj2vCcs", "ChIJGfk9XBnQ1IkRjkZnFTmaWCw", "ChIJW9SkaUDQ1IkRNmgwsklrs-Y", "ChIJS73ISCvQ1IkRixu_XGmCEGI", "ChIJ__8vGYXa1IkRWM6mWMXBjVg"]
     },
+     "ontario_toronto_yorkdistrict": {
+        "name": "ontario_toronto_yorkdistrict",
+        "search": "grocery store",
+        "type": "grocery_or_supermarket, supermarket, food",
+        "location": "43.695035, -79.450313",
+        "radius": 4000,
+        "ids": ["ChIJZ0puJok0K4gRC9_SX1w6hAY","ChIJwcwvNpI0K4gR47JfRdfjzeg","ChIJR1n75WI0K4gRl_SvYSW9ooY","ChIJzVJWnog0K4gROMK4D99Sp_I","ChIJPwwGBo00K4gRBqFKQ4BrU8Q","ChIJPci46HwzK4gRuVkPFyNty-U","ChIJOymRsGY0K4gRtql_b6PCKzg","ChIJAzCPOo40K4gRTBn7FQkuBuc","ChIJX0G7X2k0K4gRLQlAeBxSF64","ChIJ3bYAfkM0K4gRXaHV_yLebqk","ChIJTSvgAI00K4gRUx8C1YTsq3w","ChIJW8t8U5Y2K4gRLMGzDJqXbUw","ChIJCTVfWF40K4gRGRqMjuaka8w","ChIJs2LWVJEzK4gRABOhLx5K32g","ChIJGzq3-R00K4gRuSCA1tT2Fho","ChIJudcwynY0K4gRh_WkWnvWudY","ChIJ_YxDLY8zK4gR9YyJT7zpAZw","ChIJW-hG54YzK4gRPzWwTIjzcwQ","ChIJr2QMAkxMV0ARI1Dpu6kFN6A"]
+    },
+    "ontario_toronto_midtown": {
+        "name": "ontario_toronto_midtown",
+        "search": "grocery store",
+        "type": "grocery_or_supermarket, supermarket, food",
+        "location": "43.704707, -79.397425",
+        "radius": 4000,
+        "ids": ["ChIJ1zKPFmUzK4gROp_NPzc2yWc","ChIJMTezujgzK4gRxnZ2T-nTjCg","ChIJW-hG54YzK4gRPzWwTIjzcwQ","ChIJ48e8QkczK4gRWdKVXjyGzUI","ChIJGzFZd34zK4gRnI0C0yel25Q","ChIJZ0puJok0K4gRC9_SX1w6hAY","ChIJXVfBWUczK4gRsrz3ag7dNYY","ChIJYThlkFczK4gRH4_Sb0wcOlY","ChIJ5xTSn680K4gRGWp2I79o8U0","ChIJCT0I8g0zK4gRiJUrnjRM904","ChIJ1WDEXqQ0K4gRJM29vvRuTsU","ChIJAAAAAEQzK4gRzDIrLbIbTdY","ChIJPci46HwzK4gRuVkPFyNty-U","ChIJR1IvRqg0K4gRyiei6ZwfTTM","ChIJ1z0kimU1K4gRhYlSt728hZI","ChIJyWo2-K3M1IkRVnXIUMX4M94","ChIJteyWWuTL1IkRldhzvWFABQ4","ChIJk_k1xL0zK4gR2tFPqDVlh0w","ChIJG1aUPKw0K4gRc0zIkNuwaWM"]
+    },
+     "ontario_toronto_etobicoke": {
+        "name": "ontario_toronto_etobicoke",
+        "search": "grocery store",
+        "type": "grocery_or_supermarket, supermarket, food",
+        "location": "43.618276, -79.513889",
+        "radius": 4000,
+        "ids": ["ChIJIeM-4r03K4gRNgt7SjDAaCw","ChIJv9E2KtE3K4gRqGbxz1X6Y6M","ChIJI3PheaY3K4gRg3tAdJElioQ","ChIJYeVsO4E2K4gRpj3TMhNNZP4","ChIJc6rWL6Y3K4gRi20eZ69x7HE","ChIJtc2LiMtJK4gRsSgMekVBsLQ","ChIJ2YbxvHI2K4gR4eDN4lRkd98","ChIJb43RpYc2K4gRgxFZnNy0IO0","ChIJb5xwEjo2K4gRAl5TNlcjF-M","ChIJ_6Z1VeBJK4gRoDyZnATt4gA","ChIJKS0LRco3K4gR-E08DVSmRTQ","ChIJNXddDIg2K4gRPKaC7vqGnkY","ChIJ2csLnTDL1IkRpVGV9CktWu0","ChIJfznQEs9JK4gRG6ah0wRuKio","ChIJd8G7qiY3K4gRWaM7ePk60uY","ChIJ10sm0hpIK4gR2szc64QDb5E","ChIJa_B2oJY3K4gRhK-szaxxvCA"]
+    },
     "ontario_ottawa_gloucester": {
         "name": "ontario_ottawa_gloucester",
         "search": "grocery store",
