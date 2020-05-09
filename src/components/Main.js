@@ -48,7 +48,13 @@ const supportedLocations = [
   "ontario_simcoe",
   "quebec_gatineau_aylmer",
   "quebec_gatineau_hull",
-  "quebec_gatineau_gatineau"
+  "quebec_gatineau_gatineau",
+  "ontario_ottawa_findlaycreek",
+  "ontario_ottawa_greely",
+  "ontario_ottawa_stittsville",
+  "ontario_ottawa_rideauview",
+  "ontario_ottawa_britannia",
+  "ontario_rockland"
 ];
 
 export function Main() {
@@ -125,7 +131,14 @@ export function Main() {
               <option value="ontario_ottawa_bellscorners">
                 Ottawa - Bells Corners
               </option>
+              <option value="ontario_ottawa_britannia">
+                Ottawa - Britannia
+              </option>
               <option value="downtownottawa">Ottawa - Centretown</option>
+              <option value="ontario_ottawa_findlaycreek">
+                Ottawa - Findlay Creek
+              </option>
+              <option value="ontario_ottawa_greely">Ottawa - Greely</option>
               <option value="glebe">Ottawa - Glebe</option>
               <option value="ontario_ottawa_gloucester">
                 Ottawa - Gloucester
@@ -135,8 +148,14 @@ export function Main() {
               <option value="ontario_ottawa_manotick">Ottawa - Manotick</option>
               <option value="ontario_ottawa_nepean">Ottawa - Nepean</option>
               <option value="orleans">Ottawa - Orleans</option>
+              <option value="ontario_ottawa_rideauview">
+                Ottawa - Rideauview
+              </option>
               <option value="sandyhill">Ottawa - Sandy Hill</option>
               <option value="southkeys">Ottawa - South Keys</option>
+              <option value="ontario_ottawa_stittsville">
+                Ottawa - Stittsville
+              </option>
               <option value="ontario_ottawa_trainyards">
                 Ottawa - Train Yards
               </option>
@@ -145,7 +164,9 @@ export function Main() {
               <option value="ontario_toronto_annex">Toronto - Annex</option>
               <option value="downtowntoronto">Toronto - Downtown</option>
               <option value="eastyork">Toronto - East York</option>
-              <option value="ontario_toronto_etobicoke">Toronto - Etobicoke</option>
+              <option value="ontario_toronto_etobicoke">
+                Toronto - Etobicoke
+              </option>
               <option value="littleportugaltoronto">
                 Toronto - Little Portugal
               </option>
@@ -178,6 +199,7 @@ export function Main() {
                 Mississauga - Streetsville
               </option>
               <option value="ontario_peterborough">Peterborough</option>
+              <option value="ontario_rockland">Rockland</option>
               <option value="ontario_simcoe">Simcoe</option>
               <option value="ontario_waterloo">Waterloo</option>
               <option value="hastingssunrise">
@@ -192,15 +214,11 @@ export function Main() {
               <option value="bc_whiterocksouthsurrey">
                 White Rock/South Surrey
               </option>
-              <option value="quebec_gatineau_aylmer">
-                Gatineau - Aylmer
-              </option>
+              <option value="quebec_gatineau_aylmer">Gatineau - Aylmer</option>
               <option value="quebec_gatineau_gatineau">
-              Gatineau - Gatineau
+                Gatineau - Gatineau
               </option>
-              <option value="quebec_gatineau_hull">
-              Gatineau - Hull
-              </option>
+              <option value="quebec_gatineau_hull">Gatineau - Hull</option>
             </select>
           </label>
         </div>

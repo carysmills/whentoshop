@@ -29,7 +29,7 @@ locations = {
         "search": "grocery store",
         "type": "grocery_or_supermarket, supermarket, food",
         "radius": 1500,
-        'ids': ["ChIJq10xGEwEzkwRXMo3LKrj-Vk", "ChIJW21_GzwEzkwREaBAvfmqpx4","ChIJfXO7S0kEzkwRnzjejWCrTOM",  "ChIJG01pC00EzkwRKi_9fOnWnrA", "ChIJqzZcsU4EzkwRcuQKKY4hHUQ", "ChIJJ7HxI0kEzkwRIhjkB4Eb7kc", "ChIJPYMSOUsEzkwRKxSf74RI-CE", "ChIJ889Irz4EzkwRwFllgLGC3sY",  "ChIJ0dTy8jMEzkwR01w5zmfaT3Q", "ChIJGdJhtE4EzkwR8gk-UCtzb2M", "ChIJTyJRNUkEzkwRZC7Xw7zv2Bs",  "ChIJBcHfIkkEzkwRb8_DLRULFYQ",  "ChIJ4QYrpk4EzkwRJzLRmHRE00I", "ChIJLTBkKhgEzkwRt-hw1arJSK8", "ChIJ8XpokkgEzkwRUSgnsbeDL6M",  "ChIJBVpKdzIEzkwRUXli2P1YSO0", "ChIJoUIwIRoEzkwRTmapP6iy3Zc",  "ChIJjYD75xkEzkwRXWN9iNa7xUA"]
+        'ids': ["ChIJq10xGEwEzkwRXMo3LKrj-Vk", "ChIJa4Ao0z4EzkwRq3kLsZ9q1OU", "ChIJW21_GzwEzkwREaBAvfmqpx4","ChIJfXO7S0kEzkwRnzjejWCrTOM",  "ChIJG01pC00EzkwRKi_9fOnWnrA", "ChIJqzZcsU4EzkwRcuQKKY4hHUQ", "ChIJJ7HxI0kEzkwRIhjkB4Eb7kc", "ChIJPYMSOUsEzkwRKxSf74RI-CE", "ChIJ889Irz4EzkwRwFllgLGC3sY",  "ChIJ0dTy8jMEzkwR01w5zmfaT3Q", "ChIJGdJhtE4EzkwR8gk-UCtzb2M", "ChIJTyJRNUkEzkwRZC7Xw7zv2Bs",  "ChIJBcHfIkkEzkwRb8_DLRULFYQ",  "ChIJ4QYrpk4EzkwRJzLRmHRE00I", "ChIJLTBkKhgEzkwRt-hw1arJSK8", "ChIJ8XpokkgEzkwRUSgnsbeDL6M",  "ChIJBVpKdzIEzkwRUXli2P1YSO0", "ChIJoUIwIRoEzkwRTmapP6iy3Zc",  "ChIJjYD75xkEzkwRXWN9iNa7xUA"]
     },
     'downtowntoronto': {
         "name": "downtowntoronto",
@@ -85,7 +85,7 @@ locations = {
         "search": "grocery store",
         "type": "grocery_or_supermarket, supermarket, food",
         "radius": 5000,
-        "ids": ["ChIJ918Mqwr_0UwR8uyZVVSpUu0", "ChIJD64xk5j_zUwRQMrpDgDUYgI", "ChIJ2bx4Xm4A0kwRi8dSCPzF7io", "ChIJ1wCQ4XgA0kwRWg7eUfPJxIY", "ChIJP5TaGXkA0kwRHhdcY00utFY", "ChIJZbLBNXEA0kwREi1Ufh277WE", "ChIJ6yPBDv3-zUwRjjgCZsLM3Vo", "ChIJ5ZsRyqT_zUwRgenexcotU_Y", "ChIJEci4UagA0kwRfpGL-9rt9js", "ChIJo_4goJD_0UwRrC0I1FN8Kjs", "ChIJl1N--K0A0kwRnPGG9Ysqsig", "ChIJKa_7jif-zUwRMx5wwOFdOQg", "ChIJRQrx3XX_zUwRHS_fgGkCnTw", "ChIJww6GJPf_0UwRWsGl6Ux6wVE", "ChIJ8efqIG4A0kwRlVAMnxDOypQ", "ChIJYTK71PQA0kwRkI6xAuDY9Ig", "ChIJuUE-5HMA0kwRp6UZB-ExbTc", "ChIJsUZU2uH-zUwRon4usv3ITZA", "ChIJ8eD7fKL_zUwRIxIdh8oHxtc", "ChIJaYz-KaYA0kwRFsUS8v7V2Fw", "ChIJv89bw4z_zUwRmE82d9-ZFzs", "ChIJ61xFfaL_zUwRNbCBCTO0cIg", "ChIJ0Rflf2P_zUwRGfpfjRmgJ2c", "ChIJAY1KnpD_0UwRxwD-z7dM1p8"]
+        "ids": ["ChIJ918Mqwr_0UwR8uyZVVSpUu0", "ChIJD64xk5j_zUwRQMrpDgDUYgI", "ChIJ2bx4Xm4A0kwRi8dSCPzF7io", "ChIJ1wCQ4XgA0kwRWg7eUfPJxIY", "ChIJP5TaGXkA0kwRHhdcY00utFY", "ChIJZbLBNXEA0kwREi1Ufh277WE", "ChIJ6yPBDv3-zUwRjjgCZsLM3Vo", "ChIJ5ZsRyqT_zUwRgenexcotU_Y", "ChIJEci4UagA0kwRfpGL-9rt9js", "ChIJo_4goJD_0UwRrC0I1FN8Kjs", "ChIJKa_7jif-zUwRMx5wwOFdOQg", "ChIJRQrx3XX_zUwRHS_fgGkCnTw", "ChIJww6GJPf_0UwRWsGl6Ux6wVE", "ChIJ8efqIG4A0kwRlVAMnxDOypQ", "ChIJYTK71PQA0kwRkI6xAuDY9Ig", "ChIJuUE-5HMA0kwRp6UZB-ExbTc", "ChIJsUZU2uH-zUwRon4usv3ITZA", "ChIJ8eD7fKL_zUwRIxIdh8oHxtc", "ChIJaYz-KaYA0kwRFsUS8v7V2Fw", "ChIJv89bw4z_zUwRmE82d9-ZFzs", "ChIJ61xFfaL_zUwRNbCBCTO0cIg", "ChIJAY1KnpD_0UwRxwD-z7dM1p8"]
     },
     "orleans": {
         "name": "orleans",
@@ -109,7 +109,7 @@ locations = {
         "search": "grocery store",
         "type": "grocery_or_supermarket, supermarket, food",
         "radius": 2000,
-        "ids": ["ChIJW21_GzwEzkwREaBAvfmqpx4", "ChIJ889Irz4EzkwRwFllgLGC3sY", "ChIJxT3d6LkGzkwROI7tYnqMg-E", "ChIJLTBkKhgEzkwRt-hw1arJSK8", "ChIJoUIwIRoEzkwRTmapP6iy3Zc", "ChIJq-rSjLkGzkwRPobYoRFu4RA", "ChIJa4Ao0z4EzkwRq3kLsZ9q1OU", "ChIJVWUeuRwEzkwRwhjemlfec5M", "ChIJAUMIubsGzkwRcZ7r6Ik6eCA", "ChIJVyaAlJ4GzkwREwbJuil2N2Y", "ChIJz07dLsoGzkwRk0aW3b2gonw", "ChIJx77fVp8GzkwRmk6zhJmc_2g", "ChIJw-ujCbQFzkwRy9PgCDmioH4", "ChIJ15s5P5wGzkwRhfL4KqD3l9U", "ChIJAyphtgMHzkwR6WPe8AP4onw", "ChIJ4zvBODwEzkwRHY-QzfhYtWM", "ChIJjYD75xkEzkwRXWN9iNa7xUA", "ChIJrZkckQQEzkwRQtyd7xOB714"]
+        "ids": ["ChIJW21_GzwEzkwREaBAvfmqpx4", "ChIJ889Irz4EzkwRwFllgLGC3sY", "ChIJxT3d6LkGzkwROI7tYnqMg-E", "ChIJLTBkKhgEzkwRt-hw1arJSK8", "ChIJoUIwIRoEzkwRTmapP6iy3Zc", "ChIJq-rSjLkGzkwRPobYoRFu4RA", "ChIJVWUeuRwEzkwRwhjemlfec5M", "ChIJAUMIubsGzkwRcZ7r6Ik6eCA", "ChIJVyaAlJ4GzkwREwbJuil2N2Y", "ChIJz07dLsoGzkwRk0aW3b2gonw", "ChIJx77fVp8GzkwRmk6zhJmc_2g", "ChIJw-ujCbQFzkwRy9PgCDmioH4", "ChIJ15s5P5wGzkwRhfL4KqD3l9U", "ChIJAyphtgMHzkwR6WPe8AP4onw", "ChIJ4zvBODwEzkwRHY-QzfhYtWM", "ChIJjYD75xkEzkwRXWN9iNa7xUA", "ChIJrZkckQQEzkwRQtyd7xOB714"]
     },
     'ontario_kingston': {
         "name": "ontario_kingston",
@@ -125,7 +125,7 @@ locations = {
         "search": "grocery store",
         "type": "grocery_or_supermarket, supermarket, food",
         "radius": 2000,
-        "ids": ["ChIJwYSzrBwJzkwRwqRjvEeChiE", "ChIJJzs9oZQIzkwR089BavsSJLs", "ChIJEwRJvO4IzkwRkBKzi00gjXQ", "ChIJy_FCecMJzkwRWTeLkVk_Blo", "ChIJebxZ27QIzkwRWqnK9GdduT4", "ChIJIY4RFqkIzkwRxXFnoSgMPdY", "ChIJRd5YFOkIzkwRB9LrrFfPxxY", "ChIJH9E_LakIzkwRft4S1D_dMoY", "ChIJvX9s9esIzkwRgN0pyR4tfsc", "ChIJQe3Z14QIzkwRekAW2oFujVI", "ChIJwYSzrBwJzkwRD5OgtoXLmQE", "ChIJO2t0vu4IzkwRjBt4DVR3MmU", "ChIJ2cp7WJMIzkwRHeXWK_8DjFA", "ChIJqQw1Sa8IzkwRgpmOdfBb3ZY", "ChIJxZlPEaoIzkwRw_C-Y0lACrg", "ChIJs1TgJ_AIzkwRPqpuAqqAN7g", "ChIJO2t0vu4IzkwRDu0KIfGXu5w", "ChIJRf10OscIzkwRgjrn-TJW8rI", "ChIJX-87yrMIzkwRFjJhTUqdbSs", "ChIJwYSzrBwJzkwRR58xc4mBmlg", "ChIJJzs9oZQIzkwR3g0TWEpsXTQ"]
+        "ids": ["ChIJwYSzrBwJzkwRwqRjvEeChiE", "ChIJJzs9oZQIzkwR089BavsSJLs", "ChIJEwRJvO4IzkwRkBKzi00gjXQ", "ChIJy_FCecMJzkwRWTeLkVk_Blo", "ChIJebxZ27QIzkwRWqnK9GdduT4", "ChIJIY4RFqkIzkwRxXFnoSgMPdY", "ChIJRd5YFOkIzkwRB9LrrFfPxxY", "ChIJvX9s9esIzkwRgN0pyR4tfsc", "ChIJQe3Z14QIzkwRekAW2oFujVI", "ChIJwYSzrBwJzkwRD5OgtoXLmQE", "ChIJO2t0vu4IzkwRjBt4DVR3MmU", "ChIJ2cp7WJMIzkwRHeXWK_8DjFA", "ChIJqQw1Sa8IzkwRgpmOdfBb3ZY", "ChIJxZlPEaoIzkwRw_C-Y0lACrg", "ChIJs1TgJ_AIzkwRPqpuAqqAN7g", "ChIJO2t0vu4IzkwRDu0KIfGXu5w", "ChIJRf10OscIzkwRgjrn-TJW8rI", "ChIJX-87yrMIzkwRFjJhTUqdbSs", "ChIJwYSzrBwJzkwRR58xc4mBmlg", "ChIJJzs9oZQIzkwR3g0TWEpsXTQ"]
     },
     'barrhaven': {
         "name": "barrhaven",
@@ -161,7 +161,7 @@ locations = {
     },
     'ontario_ottawa_nepean': {
         "name": "ontario_ottawa_nepean",
-        "ids": ["ChIJM5tWofAGzkwRF8XjrKDQSkE", "ChIJL-5exfAGzkwRV3yRYueXK0A", "ChIJxWFq26sHzkwRZyVfa4H5j-4", "ChIJN8EF9SAHzkwR3kG7vb_W4qA", "ChIJ_zg49roHzkwRAOoQFbluYyI", "ChIJswp8m1D8zUwRUb7T10-VfWI", "ChIJi5uzCv8GzkwRKNpcjxlFcak", "ChIJp2ckKFUGzkwR3kEDu3bKmgM", "ChIJe1DEyKsHzkwRE9pktIvFVwc", "ChIJgU3zIQIFzkwRp7bpShs6MWY", "ChIJe8Cqtf8GzkwRiIifzt7ahto", "ChIJ4xvd0zYHzkwRTYubVAIehdE", "ChIJIwoTxKsHzkwRHvACod9vdTw", "ChIJe4Myg7kHzkwRaZHMyQKKMg8"],
+        "ids": ["ChIJ00441PEGzkwRwlup3c1GPng", "ChIJt4iul_sGzkwRbnJW_Byf9hU", "ChIJnYzgmlsHzkwRYI-4YGoodjI", "ChIJO5hibDf9zUwRS7_hZ_BYJ0c", "ChIJM5tWofAGzkwRF8XjrKDQSkE", "ChIJL-5exfAGzkwRV3yRYueXK0A", "ChIJxWFq26sHzkwRZyVfa4H5j-4", "ChIJN8EF9SAHzkwR3kG7vb_W4qA", "ChIJ_zg49roHzkwRAOoQFbluYyI", "ChIJswp8m1D8zUwRUb7T10-VfWI", "ChIJi5uzCv8GzkwRKNpcjxlFcak", "ChIJp2ckKFUGzkwR3kEDu3bKmgM", "ChIJe1DEyKsHzkwRE9pktIvFVwc", "ChIJgU3zIQIFzkwRp7bpShs6MWY", "ChIJe8Cqtf8GzkwRiIifzt7ahto", "ChIJ4xvd0zYHzkwRTYubVAIehdE", "ChIJIwoTxKsHzkwRHvACod9vdTw", "ChIJe4Myg7kHzkwRaZHMyQKKMg8"],
         "location": "45.335383, -75.724205",
         "search": "grocery store",
         "type": "grocery_or_supermarket, supermarket, food",
@@ -267,11 +267,11 @@ locations = {
         "name": "ontario_ottawa_gloucester",
         "search": "grocery store",
         "type": "grocery_or_supermarket, supermarket, food",
-        "ids": ["ChIJxaWVrsEPzkwROXT0myNpp80", "ChIJeeiljMAPzkwRXG_qKIgyDus", "ChIJ2eehG9kPzkwR5pc6K9pIDDg", "ChIJi94M5KsPzkwRn6D3gRPZsbA", "ChIJBQ8CSI4PzkwRGSLb20yccjo", "ChIJC4iitogPzkwRN-pt8Vm7j9g", "ChIJSTtMhnYPzkwRtT1-FPwESh4"]
+        "ids": ["ChIJxaWVrsEPzkwROXT0myNpp80", "ChIJeSTrJNgHzkwRx-QDegccLpU", "ChIJeeiljMAPzkwRXG_qKIgyDus", "ChIJ2eehG9kPzkwR5pc6K9pIDDg", "ChIJi94M5KsPzkwRn6D3gRPZsbA", "ChIJBQ8CSI4PzkwRGSLb20yccjo", "ChIJC4iitogPzkwRN-pt8Vm7j9g", "ChIJSTtMhnYPzkwRtT1-FPwESh4"]
     },
     "ontario_ottawa_altavista": {
         "name": "ontario_ottawa_altavista",
-        "ids": ["ChIJ5fUmO_4FzkwRNonA_FBkn1k", "ChIJM9U6eeQFzkwRWLlSJhtnCIg", "ChIJR0673DeWuEwRh8QoQz0MCto", "ChIJr53A2RMPzkwRq_xAwtIKqrI"]
+        "ids": ["ChIJ5fUmO_4FzkwRNonA_FBkn1k", "ChIJH9E_LakIzkwRft4S1D_dMoY", "ChIJM9U6eeQFzkwRWLlSJhtnCIg", "ChIJR0673DeWuEwRh8QoQz0MCto", "ChIJr53A2RMPzkwRq_xAwtIKqrI"]
     },
     "ontario_cornwall": {
         "name": "ontario_cornwall",
@@ -324,5 +324,29 @@ locations = {
         "location": "45.508293,-75.683070",
         "radius": 6000,
         "ids": ["ChIJz6AiHFcbzkwRJ8RjTLqUQYI", "ChIJW0ypj0EbzkwR439psIfeLdU", "ChIJzY9ajWUbzkwRhISYIEbYpPM", "ChIJecjAmGUbzkwRxhR2oSSzNXM", "ChIJl6OIDGUbzkwRDpP-pbAPzNQ", "ChIJGTR_C6MbzkwRqIYzoRDWW_c", "ChIJOba12wgbzkwRFnqJNVDUORM", "ChIJIc6_xDwbzkwREKCwYchnQ8Q", "ChIJLUWhbUEbzkwRmI4k2vupFxM"]
-    }
+    },
+    "ontario_ottawa_findlaycreek": {
+        "name": "ontario_ottawa_findlaycreek",
+        "ids": ["ChIJP34VLe8IzkwRIPr8mVKnLos"]
+    },
+    "ontario_ottawa_greely": {
+        "name": "ontario_ottawa_greely",
+        "ids": ["ChIJU3cWw07gzUwR-p4pIaUuW9I"]
+    },
+    "ontario_ottawa_stittsville": {
+        "name": "ontario_ottawa_stittsville",
+        "ids": ["ChIJuQeDjKgA0kwRQfnzOk1Xcis", "ChIJEci4UagA0kwRfpGL-9rt9js", "ChIJl1N--K0A0kwRnPGG9Ysqsig", "ChIJ0Rflf2P_zUwRGfpfjRmgJ2c"]
+    },
+    "ontario_ottawa_rideauview": {
+        "name": "ontario_ottawa_rideauview",
+        "ids": ["ChIJ1UZWlmsGzkwRoK_YxF9XP0w"]
+    },
+    "ontario_ottawa_britannia": {
+        "name": "ontario_ottawa_brittania",
+        "ids": ["ChIJJ_XdBSYBzkwRAIHJXqRBiio", "ChIJzd1xASYBzkwRHZjHuxI59mM", "ChIJu4q-sC8BzkwRsrN8Xhjov3k"]
+    },
+    "ontario_rockland": {
+        "name": "ontario_rockland",
+        "ids": ["ChIJ3xfi0fVAK4gR4XFivzauRBk", "ChIJsbgLRA1qzkwRy3ouaAvVYrA", "ChIJDVhx-EBqzkwRMKogQIQ6vEQ", "ChIJdST1pBNqzkwRp1iEwzYTzOI"]
+    },
 }
