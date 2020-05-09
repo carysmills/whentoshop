@@ -54,7 +54,8 @@ const supportedLocations = [
   "ontario_ottawa_stittsville",
   "ontario_ottawa_rideauview",
   "ontario_ottawa_britannia",
-  "ontario_rockland"
+  "ontario_rockland",
+  "newfoundland_stjohns"
 ];
 
 export function Main() {
@@ -214,6 +215,7 @@ export function Main() {
               <option value="bc_whiterocksouthsurrey">
                 White Rock/South Surrey
               </option>
+              <option value="newfoundland_stjohns">St. John's</option>
               <option value="quebec_gatineau_aylmer">Gatineau - Aylmer</option>
               <option value="quebec_gatineau_gatineau">
                 Gatineau - Gatineau

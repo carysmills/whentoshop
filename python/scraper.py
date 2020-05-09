@@ -12,6 +12,7 @@ def scrapeData(coords):
 
     for key in coords['ids']:
         result = populartimes.get_id(config.api_key, key)
+        print(result)
         if "populartimes" in result:
             popularresults.append(result)
             allLocations.append(result)

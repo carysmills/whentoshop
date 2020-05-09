@@ -349,4 +349,8 @@ locations = {
         "name": "ontario_rockland",
         "ids": ["ChIJ3xfi0fVAK4gR4XFivzauRBk", "ChIJsbgLRA1qzkwRy3ouaAvVYrA", "ChIJDVhx-EBqzkwRMKogQIQ6vEQ", "ChIJdST1pBNqzkwRp1iEwzYTzOI"]
     },
+    "newfoundland_stjohns": {
+        "name": "newfoundland_stjohns",
+        "ids": ["ChIJ3REs14u9DEsR-YaqL7S7TFI", "ChIJe8JYlb6mDEsRsAPpWJUiJ6w", "ChIJeWs6h8CmDEsRjXgvNXsXyik"]
+    },
 }
