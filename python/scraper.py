@@ -1,11 +1,11 @@
 import populartimes
 import config
 import json
-import locations
 
 allLocations = []
 locationNumber = 0
-locationsLength = len(locations.locations)
+locationsfile = 'public/locations.json'
+allresultsfile = 'public/data/allresults.json'
 
 def scrapeData(coords):
     popularresults = []
@@ -16,15 +16,17 @@ def scrapeData(coords):
             popularresults.append(result)
             allLocations.append(result)
 
-    filename = '../public/data/' + coords['name'] + '.json'
+    filename = 'public/data/' + coords['name'] + '.json'
     with open(filename, 'w') as outfile:
         json.dump(popularresults, outfile)
 
-
-for key in locations.locations:
-    scrapeData(locations.locations[key])
-    locationNumber = locationNumber + 1
-    if locationNumber is locationsLength:
-        filename = '../public/data/alllocations.json'
-        with open(filename, 'w') as outfile:
+with open(locationsfile) as f:
+  data = json.load(f)
+  for key in data:
+      location = data[key]
+      scrapeData(location)
+      locationNumber = locationNumber + 1
+      locationsLength = len(data)
+      if locationNumber is locationsLength:
+        with open(allresultsfile, 'w') as outfile:
             json.dump(allLocations, outfile)
