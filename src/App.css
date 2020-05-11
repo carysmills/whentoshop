@@ -297,6 +297,11 @@ footer {
 }
 
 @media (max-width: 420px) {
+  label {
+    display: flex;
+    flex-direction: column;
+  }
+
   .pageContainer {
     margin: 0 20px;
   }
