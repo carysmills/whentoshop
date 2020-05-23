@@ -24,5 +24,5 @@ A simple React app that displays when grocery stores are busiest in a community,
 
 - Create a new location in the the `locations.json` file in the `public directory`, with a lat and long location at the centre of where you want to search and an appropriate radius in meters.
 - Run `python python/getids.py KEY_OF_YOUR_LOCATION` from the top directory. Once you get grocery store locations back, look them over before adding them to the IDs key in the locations file for your location to make sure they should be added.
-- Run `python python/scraper.py` from the top directory in your terminal to get data for the new location (if you don't want to repeat getting existing data, comment out the other locations).
+- Run `python python/scrapelocation.py KEY_OF_YOUR_LOCATION` from the top directory in your terminal to get data for the new location. Alternatively, to fetch data for all locations, run `python python/scraper.py`.
 - Once finished, you will be able to see a file created in the data directory, and the results in the front-end.
