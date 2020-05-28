@@ -20,17 +20,10 @@ export function About() {
         >
           populartimes Python library
         </a>
-        . Data for this website is scraped once per day, however Google's data
+        . Data for this website is scraped once per week, however Google's data
         represents average popularity over the last few months. Make sure to
         check directly with grocery stores about their hours and if they have
         special hours dedicated to seniors shopping or others at risk.
-      </p>
-
-      <p>
-        Don't see your community on here?&nbsp; To make requests,{" "}
-        <a href="mailto:when2shop19@gmail.com">send a note</a> with your
-        neighbourhood name and either a postal code or the specific stores you'd
-        like to see listed there.
       </p>
 
       <p>
