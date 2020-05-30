@@ -10,6 +10,7 @@ import {
 export function Main() {
   const [shops, updateShops] = useState(null);
   const [locations, updateLocations] = useState(null);
+  const [modifiedDate, updateModifiedDate] = useState(null);
   const { search } = useLocation();
   const history = useHistory();
 
@@ -49,6 +50,7 @@ export function Main() {
     async function getData(location) {
       await fetch(`./data/${location}.json`)
         .then(response => {
+          updateModifiedDate(response.headers.get("last-modified"));
           return response.json();
         })
         .then(data => {
@@ -185,6 +187,15 @@ export function Main() {
               );
             })}
       </div>
+
+      {modifiedDate == null ? null : (
+        <div className="fetchedOn">
+          <strong>
+            Data last scraped on&nbsp;
+            {new Date(modifiedDate).toLocaleDateString()}
+          </strong>
+        </div>
+      )}
     </>
   );
 }

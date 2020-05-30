@@ -243,6 +243,10 @@ footer {
   width: min-content;
 }
 
+.fetchedOn {
+  text-align: center;
+}
+
 @media (max-width: 1070px) {
   .legendContainer,
   .selectContainer {

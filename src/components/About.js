@@ -27,6 +27,11 @@ export function About() {
       </p>
 
       <p>
+        Please send any feedback or questions by&nbsp;
+        <a href="mailto:when2shop19@gmail.com">email</a>.
+      </p>
+
+      <p>
         Want to contribute?&nbsp;
         <a href="https://github.com/carysmills/whentoshop">
           Pull requests are welcome.
