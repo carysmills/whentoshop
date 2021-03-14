@@ -1,3 +1,5 @@
+**Note: this project is now archived due to <a href="https://github.com/m-wrzr/populartimes/issues/90">issues raised</a> in the Popular Times repo regarding Google's terms of service.**
+
 # When to shop
 
 A simple React app that displays when grocery stores are busiest in a community, according to Google's Popular Times data, via [the populartimes library](https://github.com/m-wrzr/populartimes). Made in response to COVID-19 and the extra preparation everyone has to do to go grocery shopping. Data for each location is fetched on the server every day using a cron job.
